@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import parade from "../../assets/parade.avif";
-import firing from "../../assets/firing.webp";
-import Title from "../../ul/Title";
+import parade from "../../../assets/parade.avif";
+import firing from "../../../assets/firing.webp";
+import Title from "../../../UI/Title";
 
 const infoArray = [
   {

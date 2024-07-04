@@ -11,7 +11,7 @@ const About = () => {
     setShowMobileSideBar(!showMobileSideBar);
   };
 
-  const [showSideBar, setShowNavBar] = useState(1);
+  const [showSideBar, setShowNavBar] = useState(0);
 
   const toggleSideBar = () => {
     setShowNavBar(!showSideBar);

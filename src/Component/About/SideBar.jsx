@@ -11,8 +11,6 @@ const SideBar = ({
   return (
     <div
       className="max-h-min max-w-max"
-      onMouseEnter={toggleSideBar}
-      onMouseLeave={toggleSideBar}
     >
       <div className="h-full w-full py-3 px-1 border border-slate-500 rounded-lg shadow-lg">
         <div className="flex flex-col items-start gap-2">

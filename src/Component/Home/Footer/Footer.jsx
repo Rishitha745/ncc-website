@@ -8,7 +8,7 @@ import { navItems, socialMedia } from "../../../Constants";
 const Footer = () => {
   let year = new Date().getFullYear();
   return (
-    <footer className="mt-10">
+    <footer className="mt-10 bottom-0">
       <div className="grid gap-10 md:gap-0 md:grid-cols-2 px-6">
         <div className="flex justify-around items-center sm:justify-evenly md:items-start">
           <div className="-ml-3">

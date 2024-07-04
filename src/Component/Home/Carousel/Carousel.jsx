@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { RiArrowLeftWideLine, RiArrowRightWideLine } from "react-icons/ri";
 
-import img1 from "../../assets/ncc1.png";
-import img3 from "../../assets/ncc3.jpg";
-import img4 from "../../assets/ncc4.jpg";
-import img5 from "../../assets/ncc5.jpg";
-import img6 from "../../assets/ncc6.jpg";
-import img7 from "../../assets/ncc7.jpg";
-import Title from "../../ul/Title";
+import img1 from "../../../assets/ncc1.png";
+import img3 from "../../../assets/ncc3.jpg";
+import img4 from "../../../assets/ncc4.jpg";
+import img5 from "../../../assets/ncc5.jpg";
+import img6 from "../../../assets/ncc6.jpg";
+import img7 from "../../../assets/ncc7.jpg";
+import Title from "../../../UI/Title";
 
 function App() {
   const slides = [

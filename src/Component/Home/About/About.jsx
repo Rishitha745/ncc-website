@@ -1,8 +1,8 @@
 import React from "react";
-import Title from "../../ul/Title";
-import Button from "../../ul/Button";
-import img1 from "../../assets/ncc4.jpg";
-import img2 from "../../assets/ncc7.jpg";
+import Title from "../../../UI/Title";
+import Button from "../../../UI/Button";
+import img1 from "../../../assets/ncc4.jpg";
+import img2 from "../../../assets/ncc7.jpg";
 
 const About = () => {
   return (

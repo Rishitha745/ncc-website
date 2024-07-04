@@ -7,14 +7,3 @@
   font-family: "Poppins", sans-serif;
   background-color: rgb(226 232 240);
 }
-
-.slick-center {
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  transform: scale(1.25);
-}
-
-.slick-dots{
-  position : "relative";
-  padding : "10px";
-}

@@ -21,7 +21,6 @@ const SideBar = ({
                 toggleMobileSideBar();
               }}
             >
-              {console.log(showMobileSideBar)}
               {index === 0 ? (
                 <div className={`flex items-center gap-4 py-3 px-4`}>
                   {showMobileSideBar ? (

@@ -1,6 +1,6 @@
 import React from "react";
-import ncclogo from "../../assets/ncclogo.svg";
-import clglogo from "../../assets/clglogo3.png";
+import ncclogo from "../../../assets/ncclogo.svg";
+import clglogo from "../../../assets/clglogo3.png";
 
 const Hero = () => {
   return (
