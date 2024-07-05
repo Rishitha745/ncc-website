@@ -14,6 +14,32 @@ import img6 from "../assets/ncc6.jpg";
 import img7 from "../assets/ncc7.jpg";
 export const HomeCarousel = [img1, img3, img4, img5, img6, img7];
 
+import parade from "../assets/parade.avif";
+import firing from "../assets/firing.webp";
+export const homeEventsGrid = [
+  {
+    title: "Firing",
+    image: parade,
+    info: "",
+  },
+  {
+    title: "Days",
+    image: firing,
+    info: "",
+  },
+  {
+    title: "Rank",
+    image: parade,
+    info: "",
+  },
+  {
+    title: "Camp",
+    image: firing,
+    info: "",
+  },
+];
+
+
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 export const socialMedia = [
   { icon: BsFacebook, href: "#" },

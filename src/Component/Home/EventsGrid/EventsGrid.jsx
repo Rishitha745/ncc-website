@@ -1,31 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import parade from "../../../assets/parade.avif";
-import firing from "../../../assets/firing.webp";
 import Title from "../../../UI/Title";
-
-const infoArray = [
-  {
-    title: "Firing",
-    image: parade,
-    info: "",
-  },
-  {
-    title: "Days",
-    image: firing,
-    info: "",
-  },
-  {
-    title: "Rank",
-    image: parade,
-    info: "",
-  },
-  {
-    title: "Camp",
-    image: firing,
-    info: "",
-  },
-];
+import Button from "../../../UI/Button";
+import { homeEventsGrid } from "../../../Constants";
 
 const style1 =
   "p-2 h-[200px] rounded-lg lg:col-span-2 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30";
@@ -36,8 +13,8 @@ const EventGrid = () => {
   return (
     <div className="max-w-7xl mx-auto bg-slate-200">
       <Title>Our Events</Title>
-      <div className="grid sm:grid-cols-2 gap-8 lg:grid-cols-3 px-6 py-4">
-        {infoArray.map((event, index) => (
+      <div className="grid sm:grid-cols-2 gap-8 lg:grid-cols-3 px-6 py-4 mb-8">
+        {homeEventsGrid.map((event, index) => (
           <div
             key={index}
             className={`${index == 1 || index == 2 ? style1 : style2}`}
@@ -49,6 +26,11 @@ const EventGrid = () => {
             ></Card>
           </div>
         ))}
+      </div>
+      <div className="mb-10">
+        <a href="/events">
+          <Button>View Events</Button>
+        </a>
       </div>
     </div>
   );
