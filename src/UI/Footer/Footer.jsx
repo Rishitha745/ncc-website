@@ -26,6 +26,7 @@ const Footer = () => {
                   <a
                     key={index}
                     href={item.href}
+                    target="_blank"
                     className="text-xl md:text-2xl text-blue-600"
                   >
                     <item.icon />
@@ -38,7 +39,7 @@ const Footer = () => {
 
         <div className="flex flex-wrap justify-around">
           <div className="flex flex-col items-start">
-            <h1 className="text-xl md:text-2xl lg:text-3xl mb-5">
+            <h1 className="text-sm md:text-lg lg:text-2xl mb-5">
               Quick Links
             </h1>
             {navItems.map((item, index) => {
@@ -47,7 +48,7 @@ const Footer = () => {
                   <a
                     key={index}
                     href={item.href}
-                    className="text-sm md:text-lg lg:text-xl mb-2"
+                    className="text-xs md:text-sm lg:text-base mb-2"
                   >
                     {item.label}
                   </a>
@@ -57,28 +58,28 @@ const Footer = () => {
             })}
           </div>
           <div className="flex flex-col items-start">
-            <h1 className="text-xl md:text-2xl lg:text-3xl mb-5">Contact Us</h1>
+            <h1 className="text-sm md:text-lg lg:text-2xl mb-5">Contact Us</h1>
             <a className="flex items-center mb-2">
-              <HiLocationMarker className="text-2xl mr-2 text-blue-600" />
-              <p className="text-sm md:text-lg lg:text-xl">IIT Hyderabad</p>
+              <HiLocationMarker className="text-lg md:text-xl lg:text-2xl mr-2 text-blue-600" />
+              <p className="text-xs md:text-sm lg:text-base">IIT Hyderabad</p>
             </a>
             <a className="flex items-center mb-2">
-              <MdEmail className="text-2xl mr-2 text-blue-600" />
-              <p className="text-sm md:text-lg lg:text-xl">ncc@iith.ac.in</p>
+              <MdEmail className="text-lg md:text-xl lg:text-2xl mr-2 text-blue-600" />
+              <p className="text-xs md:text-sm lg:text-base">ncc@iith.ac.in</p>
             </a>
             <a className="flex items-center mb-2">
-              <IoCall className="text-2xl mr-2 text-blue-600" />
-              <p className="text-sm md:text-lg lg:text-xl">+91 123456-789</p>
+              <IoCall className="text-lg md:text-xl lg:text-2xl mr-2 text-blue-600" />
+              <p className="text-xs md:text-sm lg:text-base">+91 123456-789</p>
             </a>
           </div>
         </div>
       </div>
       <hr className="border border-neutral-700/80" />
       <div className="py-4 md:py-6 px-4 flex flex-col gap-1 md:gap-0 md:flex-row justify-around">
-        <p className="text-center text-sm md:text-lg lg:text-xl">
+        <p className="text-center text-xs md:text-sm lg:text-base">
           &copy; {year} NCC, IIT Hyderabad.
         </p>
-        <p className="text-center text-sm md:text-lg lg:text-xl">
+        <p className="text-center text-xs md:text-sm lg:text-base">
           All rights reserved.
         </p>
       </div>

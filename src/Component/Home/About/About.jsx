@@ -18,7 +18,9 @@ const About = () => {
             quos voluptates, quod quia doloribus voluptas quibusdam tempore
             nemo.
           </p>
-          <Button>Navigate to Website</Button>
+          <a href="https://iith.ac.in/" alt="IITH Website" target="_blank">
+            <Button>Navigate to Website</Button>
+          </a>
         </div>
         <div className="flex items-start justify-center">
           <div className="w-full sm:w-3/4 lg:w-full h-auto rounded-3xl overflow-hidden">
@@ -41,7 +43,9 @@ const About = () => {
             quos voluptates, quod quia doloribus voluptas quibusdam tempore
             nemo.
           </p>
-          <Button>Navigate to Website</Button>
+          <a href="https://indiancc.mygov.in/" alt="NCC Website" target="_blank">
+            <Button>Navigate to Website</Button>
+          </a>
         </div>
       </div>
     </div>

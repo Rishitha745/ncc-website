@@ -41,8 +41,8 @@ export const homeEventsGrid = [
 
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 export const socialMedia = [
-  { icon: BsFacebook, href: "#" },
-  { icon: BsInstagram, href: "#" },
+  { icon: BsFacebook, href: "https://www.facebook.com/profile.php?id=100091668218879" },
+  { icon: BsInstagram, href: "https://instagram.com/ncc_iit_hyderabad?igshid=MmIzYWVlNDQ5Yg==" },
   { icon: BsLinkedin, href: "#" },
   { icon: BsTwitter, href: "#" },
 ];

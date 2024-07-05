@@ -20,7 +20,7 @@ const EventCard = ({ index, title, text, date, image }) => {
                 <img
                   src={image}
                   className="w-full h-full object-cover"
-                  alt=""
+                  alt="Event Image"
                 />
               </div>
             )}
@@ -39,7 +39,7 @@ const EventCard = ({ index, title, text, date, image }) => {
                 <img
                   src={image}
                   className="w-full h-full object-cover"
-                  alt=""
+                  alt="Event Image"
                 />
               </div>
             )}
@@ -77,6 +77,7 @@ const EventCard = ({ index, title, text, date, image }) => {
               <div className="flex items-center justify-center">
                 <img
                   src={image}
+                  alt="Event Image"
                   className=" w-56 h-56 object-cover rounded-full"
                 ></img>
               </div>
