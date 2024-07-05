@@ -11,9 +11,9 @@ const style2 =
 
 const EventGrid = () => {
   return (
-    <div className="max-w-7xl mx-auto bg-slate-200">
+    <div className="max-w-7xl mx-auto bg-slate-200 mb-6 sm:mb-10">
       <Title>Our Events</Title>
-      <div className="grid sm:grid-cols-2 gap-8 lg:grid-cols-3 px-6 py-4 mb-8">
+      <div className="grid sm:grid-cols-2 gap-8 lg:grid-cols-3 px-6 mb-8">
         {homeEventsGrid.map((event, index) => (
           <div
             key={index}
@@ -27,7 +27,7 @@ const EventGrid = () => {
           </div>
         ))}
       </div>
-      <div className="mb-10">
+      <div className="">
         <a href="/events">
           <Button>View Events</Button>
         </a>

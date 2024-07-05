@@ -11,7 +11,7 @@ const Certificates = () => {
   };
 
   return (
-    <div className="px-5 py-5">
+    <div className="px-6 mb-6 sm:mb-10">
       <Title>About Exams</Title>
       <div className="flex items-center justify-center mb-10">
         <div className="flex bg-slate-100 rounded-full">

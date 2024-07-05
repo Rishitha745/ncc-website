@@ -3,7 +3,7 @@ import React from "react";
 const EventCard = ({ index, title, text, date, image }) => {
   return (
     <div className="relative">
-      <div className="hidden md:block ">
+      <div className="hidden md:block">
         <div className="grid grid-cols-2">
           <div className="flex justify-start items-start pt-28 pb-6 px-10 bg-slate-400">
             {index % 2 === 0 ? (

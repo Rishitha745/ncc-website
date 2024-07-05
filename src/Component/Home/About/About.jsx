@@ -6,7 +6,7 @@ import img2 from "../../../assets/ncc7.jpg";
 
 const About = () => {
   return (
-    <div className="pt-10 px-6">
+    <div className="mb-6 sm:mt-10 px-6">
       <Title> About Us </Title>
       <div className="grid gap-10 lg:gap-16 lg:grid-cols-2 px-4 mb-6 md:mb-10">
         <div className="flex flex-col items-center lg:text-start lg:items-start justify-center gap-6">

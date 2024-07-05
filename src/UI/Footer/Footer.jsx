@@ -9,7 +9,8 @@ const Footer = () => {
   let year = new Date().getFullYear();
   return (
     <footer className="max-w-7xl mx-auto bottom-0">
-      <div className="grid gap-10 md:gap-0 md:grid-cols-2 px-6">
+      <hr className="mb-6 sm:mb-10 border border-neutral-700/80" />
+      <div className="grid gap-10 md:gap-0 md:grid-cols-2 px-6 mb-6 sm:mb-10">
         <div className="flex justify-around items-center sm:justify-evenly md:items-start">
           <div className="-ml-3">
             <img src={logo} alt="logo" className="w-24 h-24 md:w-36 md:h-36" />
@@ -72,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="mt-10 border border-neutral-700/80" />
+      <hr className="border border-neutral-700/80" />
       <div className="py-4 md:py-6 px-4 flex flex-col gap-1 md:gap-0 md:flex-row justify-around">
         <p className="text-center text-sm md:text-lg lg:text-xl">
           &copy; {year} NCC, IIT Hyderabad.

@@ -7,7 +7,7 @@ const Message = () => {
   return (
     <div className="">
       <Title>Message</Title>
-      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-8 mr-10 md:mr-28 gap-5">
+      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 mr-10 md:mr-28 gap-5">
         <div className="w-1/3 lg:w-1/4 flex flex-col justify-center items-center gap-2">
           <div className="w-44 h-44 overflow-hidden rounded-full">
             <img src={img} className="w-full h-full object-cover" alt="" />
@@ -32,7 +32,7 @@ const Message = () => {
           <Quote className="text-slate-700" size={40} />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-8 ml-10 md:ml-28 gap-5">
+      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 ml-10 md:ml-28 gap-5">
         <div className="self-start">
           <Quote className="rotate-180 text-slate-700" size={40} />
         </div>

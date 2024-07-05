@@ -21,12 +21,12 @@ const Teams = () => {
           <YearsCarousel handleYearChange={handleYearChange} />
           {teamsData[currentYear] ? (
             <>
-              <div className="flex flex-col gap-12 sm:flex-row items-center justify-evenly mb-20">
+              <div className="flex flex-col gap-10 sm:flex-row items-center justify-evenly mb-10 sm:mb-20">
                 {teamsData[currentYear].ficMembers.map((ficMember, index) => (
                   <FicMember key={index} ficMember={ficMember} />
                 ))}
               </div>
-              <div className="flex flex-col justify-center sm:flex-row items-center p-2 sm:p-5 gap-5 mb-20">
+              <div className="flex flex-col justify-center sm:flex-row items-center px-6 gap-5 mb-10 sm:mb-20">
                 <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl md:text-xl lg:text-3xl">
                   Rank Holders
                 </h1>
@@ -38,7 +38,7 @@ const Teams = () => {
                   )}
                 </div>
               </div>
-              <div className="flex flex-col justify-center sm:flex-row items-center p-2 sm:p-5 gap-5 mb-20">
+              <div className="flex flex-col justify-center sm:flex-row items-center px-6 gap-5 mb-10 sm:mb-20">
                 <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl md:text-xl lg:text-3xl">
                   Coordinators
                 </h1>

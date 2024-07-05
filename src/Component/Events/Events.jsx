@@ -16,11 +16,15 @@ const EventsPage = () => {
   return (
     <div>
       <MainLayout>
-        <div className="relative">
+        <div className="relative ">
           <Title>Our Events</Title>
           <YearsCarousel handleYearChange={handleYearChange} />
           {eventsData[currentYear] ? (
             <>
+              <div className="flex md:hidden">
+                <div className="w-full md:w-1/2 h-16 bg-slate-400"></div>
+                <div className="w-0 md:w-1/2 h-16 bg-slate-50"></div>
+              </div>
               {eventsData[currentYear].events.map((event, index) => (
                 <EventCard
                   key={index}
@@ -31,6 +35,10 @@ const EventsPage = () => {
                   image={event.image}
                 />
               ))}
+              <div className="flex">
+                <div className="w-full md:w-1/2 h-16 bg-slate-400"></div>
+                <div className="w-0 md:w-1/2 h-16 bg-slate-50"></div>
+              </div>
             </>
           ) : (
             <div className="my-10 text-center">

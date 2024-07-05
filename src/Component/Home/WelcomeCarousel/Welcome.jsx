@@ -5,7 +5,7 @@ import Carousel from "../../../UI/Carousel";
 
 const Welcome = () => {
   return (
-    <div className="pt-10 bg-slate-200">
+    <div className="mb-6 sm:mb-10 bg-slate-200">
       <Title> Welcome </Title>
       {/* <Carousel slides={HomeCarousel.map((item) => item.img)} /> */}
       <Carousel slides={HomeCarousel} />

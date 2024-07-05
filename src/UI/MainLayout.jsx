@@ -7,7 +7,7 @@ const MainLayout = ({ children }) => {
   return (
     <div>
       <Header />
-      <div className="pt-20 max-w-7xl mx-auto">{children}</div>
+      <div className="mt-20 sm:mt-24 max-w-7xl mx-auto">{children}</div>
       <BackToTop />
       <Footer />
     </div>

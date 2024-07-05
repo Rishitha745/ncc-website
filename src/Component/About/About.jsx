@@ -31,7 +31,7 @@ const About = () => {
   return (
     <div>
       <MainLayout>
-        <div className="mt-8 md:mx-8 flex gap-6 relative">
+        <div className="px-6 mb-6 sm:mb-10 flex gap-6 relative">
           <div className="hidden md:block max-h-min">
             <SideBar
               showcurrentIndex={showCurrentIndex}

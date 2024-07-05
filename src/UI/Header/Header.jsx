@@ -12,7 +12,7 @@ const Header = () => {
   };
   return (
     <nav className="fixed top-0 z-50 w-full">
-      <div className="max-w-7xl mx-auto py-2 px-4 backdrop-blur-lg border-b border-neutral-700/80">
+      <div className="max-w-7xl mx-auto py-2.5 px-4 backdrop-blur-lg border-b border-neutral-700/80">
         <div className="flex justify-between items-center">
           <Logo />
           <div className="hidden lg:flex items-center space-x-12">

@@ -4,7 +4,7 @@ import clglogo from "../../../assets/clglogo3.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-evenly items-center pt-10 px-6 gap-10">
+    <div className="flex flex-col sm:flex-row justify-evenly items-center px-6 gap-10 mb-6 sm:mb-10">
       <div className="text-center md:text-start">
         <h1 className="text-3xl md:text-3xl lg:text-4xl mb-4 font-semibold">
           National Cadet Corps <br /> IIT Hyderabad

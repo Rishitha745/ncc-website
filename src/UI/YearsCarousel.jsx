@@ -32,7 +32,7 @@ const App = ({ handleYearChange }) => {
   handleYearChange(activeIndex);
 
   return (
-    <div className="flex gap-4 items-center justify-center mb-12">
+    <div className="flex gap-4 items-center justify-center mb-10">
       <div className="leftbutton">
         <button className="arrow-left">
           <CircleArrowLeft size={25} />
