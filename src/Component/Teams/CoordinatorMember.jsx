@@ -1,6 +1,6 @@
 import React from "react";
 
-const Member = ({ coordinator }) => {
+const CoordinatorMember = ({ coordinator }) => {
   return (
     <div className="flex items-center justify-center">
       <div className="group flex flex-col items-center [perspective:1000px]">
@@ -23,4 +23,4 @@ const Member = ({ coordinator }) => {
   );
 };
 
-export default Member;
+export default CoordinatorMember;

@@ -1,5 +1,5 @@
 import React from "react";
-import { navItems } from "../../../Constants";
+import { navItems } from "../../Constants";
 
 const NavItems = () => {
   return (

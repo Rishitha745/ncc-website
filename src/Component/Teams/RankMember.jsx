@@ -1,6 +1,6 @@
 import React from "react";
 
-const Member = ({ member }) => {
+const RankMember = ({ member }) => {
   return (
     <div className="flex items-center justify-center">
       <div className="group [perspective:1000px]">
@@ -22,4 +22,4 @@ const Member = ({ member }) => {
   );
 };
 
-export default Member;
+export default RankMember;

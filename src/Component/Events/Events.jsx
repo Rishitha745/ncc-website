@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import Test from "./Test";
+import React from "react";
+import EventCard from "./EventCard";
 import Title from "../../UI/Title";
-import MainLayout from "../../UI/MainLayout";
 import YearsCarousel from "../../UI/YearsCarousel";
 import { eventsData } from "../../Constants";
+import { useState } from "react";
+import MainLayout from "../../UI/MainLayout";
 
 const EventsPage = () => {
   const [currentYear, setCurrentYear] = useState(0);
@@ -18,22 +19,25 @@ const EventsPage = () => {
         <div className="relative">
           <Title>Our Events</Title>
           <YearsCarousel handleYearChange={handleYearChange} />
-          {eventsData.map(
-            (eachEvent, index) =>
-              index == currentYear && (
-                <div>
-                  {eachEvent.events.map((event, index) => (
-                    <Test
-                      key={index}
-                      index={index}
-                      title={event.title}
-                      text={event.text}
-                      date={event.date}
-                      image={event.image}
-                    />
-                  ))}
-                </div>
-              )
+          {eventsData[currentYear] ? (
+            <>
+              {eventsData[currentYear].events.map((event, index) => (
+                <EventCard
+                  key={index}
+                  index={index}
+                  title={event.title}
+                  text={event.text}
+                  date={event.date}
+                  image={event.image}
+                />
+              ))}
+            </>
+          ) : (
+            <div className="my-10 text-center">
+              <h1 className="text-xl sm:text-2xl font-bold text-blue-600 px-10">
+                OOPS! NCC in IITH was not established then.
+              </h1>
+            </div>
           )}
         </div>
       </MainLayout>

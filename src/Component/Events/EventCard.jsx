@@ -1,6 +1,6 @@
 import React from "react";
 
-const Test = ({ index, title, text, date, image }) => {
+const EventCard = ({ index, title, text, date, image }) => {
   return (
     <div className="relative">
       <div className="hidden md:block ">
@@ -71,8 +71,8 @@ const Test = ({ index, title, text, date, image }) => {
       </div>
       <div className="md:hidden">
         <div className="grid grid-cols-10">
-          <div className={`h-full bg-slate-400 `}></div>
-          <div className={`h-full col-span-9 pt-20 pb-5 px-8  bg-slate-50 `}>
+          <div className={`h-full bg-slate-400`}></div>
+          <div className={`h-full col-span-9 pt-20 pb-5 px-8 bg-slate-50`}>
             <div className="flex flex-col gap-5">
               <div className="flex items-center justify-center">
                 <img
@@ -107,4 +107,4 @@ const Test = ({ index, title, text, date, image }) => {
   );
 };
 
-export default Test;
+export default EventCard;

@@ -1,6 +1,5 @@
 import React from "react";
 import img from "../../assets/ncc3.jpg";
-import MainLayout from "../../UI/MainLayout";
 
 const gallery = [
   {
@@ -16,35 +15,26 @@ const gallery = [
 const Gallery = () => {
   return (
     <div>
-      <MainLayout>
-        <div className="max-h-min bg-slate-500">
-          <div className="p-10">
-            <h1 className="text-center font-bold text-2xl mb-5">
-              {gallery[0].title}
-            </h1>
-            <div className="flex flex-col-reverse md:flex-row items-center justify-center">
-              <div className="w-full md:w-1/2 rounded-lg overflow-hidden">
-                <img
-                  src={gallery[0].img}
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <div className="w-full md:w-1/2 p-5">
-                <p className="text-center md:text-start text-sm">
-                  {gallery[0].contentA}
-                </p>
-              </div>
+      <div className="max-h-min bg-slate-500">
+        <div className="p-10">
+          <h1 className="text-center font-bold text-2xl mb-5">{gallery[0].title}</h1>
+          <div className="flex flex-col-reverse md:flex-row items-center justify-center">
+            <div className="w-full md:w-1/2 rounded-lg overflow-hidden">
+              <img src={gallery[0].img} className="w-full h-full object-cover" alt="" />
+            </div>
+            <div className="w-full md:w-1/2 p-5">
+              <p className="text-center md:text-start text-sm">{gallery[0].contentA}</p>
             </div>
           </div>
         </div>
-        <div className="p-10">
-          <p>{gallery[0].contentB}</p>
-        </div>
-      </MainLayout>
+      </div>
+      <div className="p-10">
+        <p>{gallery[0].contentB}</p>
+      </div>
     </div>
   );
 };
+
 
 export default Gallery;
 

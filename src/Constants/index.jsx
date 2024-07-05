@@ -10,8 +10,8 @@ export const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Events", href: "/events" },
-  { label: "Council", href: "/teams" },
-  { label: "Training", href: "/blog" },
+  { label: "Council", href: "/council" },
+  { label: "Training", href: "/training" },
 ];
 
 export const socialMedia = [
@@ -19,6 +19,86 @@ export const socialMedia = [
   { icon: BsInstagram, href: "#" },
   { icon: BsLinkedin, href: "#" },
   { icon: BsTwitter, href: "#" },
+];
+
+import blogCarimg from "../assets/ncc3.jpg";
+
+export const blogArray = [
+  {
+    id: 1,
+    hero: blogCarimg,
+    title: "Drills and Skills",
+    content:
+      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    maincontent:
+      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    carousel: [
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+    ],
+  },
+  {
+    id: 2,
+    hero: blogCarimg,
+    title: "Obstacle Course",
+    content:
+      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    maincontent:
+      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drillsNCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drillsNCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.",
+    carousel: [
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+    ],
+  },
+  {
+    id: 3,
+    hero: blogCarimg,
+    title: "Classes and Courses",
+    content:
+      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    maincontent:
+      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    carousel: [
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+    ],
+  },
+  {
+    id: 4,
+    hero: blogCarimg,
+    title: "Obstacle Course",
+    content:
+      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    maincontent:
+      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.",
+    carousel: [
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+    ],
+  },
+  {
+    id: 5,
+    hero: blogCarimg,
+    title: "Classes and Courses",
+    content:
+      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    maincontent:
+      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+    carousel: [
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+      { img: blogCarimg },
+    ],
+  },
 ];
 
 export const imageCarousel = [img1, img3, img1, img4, img5, img6, img7];
@@ -232,6 +312,182 @@ export const eventsData = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         date: "15th Aug 2022",
         image: img1,
+      },
+    ],
+  },
+];
+
+import img from "../assets/ncc3.jpg";
+
+export const teamsData = [
+  {
+    year: 2024,
+    ficMembers: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+    rankMembers: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+    coordinators: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+  },
+  {
+    year: 2023,
+    ficMembers: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+    rankMembers: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+    coordinators: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+  },
+  {
+    year: 2022,
+    ficMembers: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+    rankMembers: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+    ],
+    coordinators: [
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
+      },
+      {
+        img: img,
+        name: "John Doe",
+      },
+      {
+        img: img,
+        name: "Jane Doe",
       },
     ],
   },

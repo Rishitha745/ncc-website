@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavItems from "./NavItems";
 import Logo from "./Logo";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
-import Button from "../../../UI/Button";
+import Button from "../Button";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);

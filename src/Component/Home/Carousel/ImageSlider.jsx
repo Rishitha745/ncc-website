@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { Circle, CircleDot } from "lucide-react";
 import { RiArrowLeftWideLine, RiArrowRightWideLine } from "react-icons/ri";
 
-import img1 from "./assets/ncc1.png";
-import img3 from "./assets/ncc3.jpg";
-import img4 from "./assets/ncc4.jpg";
-import img5 from "./assets/ncc5.jpg";
-import img6 from "./assets/ncc6.jpg";
-import img7 from "./assets/ncc7.jpg";
+import img1 from "../../../assets/ncc1.png";
+import img3 from "../../../assets/ncc3.jpg";
+import img4 from "../../../assets/ncc4.jpg";
+import img5 from "../../../assets/ncc5.jpg";
+import img6 from "../../../assets/ncc6.jpg";
+import img7 from "../../../assets/ncc7.jpg";
 
-export function ImageSlider() {
+export default function ImageSlider() {
   const images = [
     {
       url: img1,
@@ -30,6 +30,7 @@ export function ImageSlider() {
       url: img7,
     },
   ];
+  
   const [imageIndex, setImageIndex] = useState(0);
 
   function showNextImage() {

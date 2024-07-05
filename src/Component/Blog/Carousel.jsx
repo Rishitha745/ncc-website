@@ -1,62 +1,64 @@
 import React, { useState } from "react";
+import { RiArrowLeftWideLine, RiArrowRightWideLine } from "react-icons/ri";
 
-const Carousel = ({ images }) => {
+function App( {slides} ) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
   };
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
   };
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto">
-      <div className="overflow-hidden relative">
-        <div
-          className="whitespace-nowrap transition-transform duration-500"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
-          {console.log(images)}
-          {images.map((image, index) =>
-            (<img
-              key={index}
-              src={image}
-              alt={`Slide ${index}`}
-              className="inline-block w-full h-full object-cover transition-transform duration-500 rounded-lg"
-            />)
-          )}
-        </div>
-      </div>
-      <button
-        onClick={prevSlide}
-        className="absolute top-1/2 transform -translate-y-1/2 left-0 bg-black bg-opacity-50 text-white p-2 rounded-full"
-      >
-        &lt;
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute top-1/2 transform -translate-y-1/2 right-0 bg-black bg-opacity-50 text-white p-2 rounded-full"
-      >
-        &gt;
-      </button>
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center p-2">
-        {images.map((_, index) => (
+    <div className="pt-10 bg-slate-200">
+      <div className="w-full h-full">
+        <div className="relative group w-full h-full overflow-hidden">
+          <img
+            src={slides[currentIndex]}
+            alt={`Slide ${currentIndex}`}
+            className="w-full h-full object-cover flex-shrink-0 flex-grow-0"
+            style={{ aspectRatio: "16/9" }}
+          />
           <div
-            key={index}
-            className={`h-2 w-2 rounded-full mx-1 ${
-              currentIndex === index ? "bg-white" : "bg-gray-400"
-            }`}
-          ></div>
-        ))}
+            onClick={prevSlide}
+            className="absolute flex items-center top-0 bottom-0 left-0 p-2 md:p-4 lg:p-8 transition-bg duration-100 ease-in-out hover:bg-black/40 focus-visible:bg-black/40 text-slate-50 cursor-pointer"
+          >
+            <RiArrowLeftWideLine className="text-xl sm:text-4xl" />
+          </div>
+          <div
+            onClick={nextSlide}
+            className="absolute flex items-center top-0 bottom-0 right-0 p-2 md:p-4 lg:p-8 transition-bg duration-100 ease-in-out hover:bg-black/40 focus-visible:bg-black/40 text-slate-50 cursor-pointer"
+          >
+            <RiArrowRightWideLine className="text-xl sm:text-4xl" />
+          </div>
+          <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            {slides.map((slide, slideIndex) => (
+              <div
+                key={slideIndex}
+                onClick={() => goToSlide(slideIndex)}
+                className={`cursor-pointer w-2 h-2 lg:w-2.5 lg:h-2.5 rounded-full transition-transform duration-100 ease-in-out hover:scale-110 focus-visible:scale-110 ${
+                  slideIndex === currentIndex
+                    ? "bg-slate-600 scale-125"
+                    : "bg-slate-200"
+                }`}
+              ></div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
-};
+}
 
-export default Carousel;
+export default App;

@@ -26,7 +26,7 @@ const PopUp = ({ blog, togglePopup }) => {
         </div>
         <div className="flex-1 overflow-auto mb-5">
           <div className="flex-none mb-5">
-            <Carousel images={blog.carousel.map((item) => item.img)} />
+            <Carousel slides={blog.carousel.map((item) => item.img)} />
           </div>
           <div className="relative overflow-hidden">
             <p className="text-justify">{blog.maincontent}</p>

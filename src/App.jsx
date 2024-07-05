@@ -16,9 +16,9 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/teams" element={<Teams />} />
+          <Route path="/council" element={<Teams />} />
           <Route path="/events" element={<EventsPage />} />
-          <Route path="/Blog" element={<Blog />} />
+          <Route path="/training" element={<Blog />} />
           <Route path="/Gallery" element={<Gallery />} />
         </Routes>
       </BrowserRouter>
@@ -27,7 +27,6 @@ const App = () => {
 };
 
 export default App;
-
 // import Carousel from "./Component/Home/Carousel/Carousel";
 // import Hero from "./Component/Home/Hero/Hero";
 // import About from "./Component/Home/About/About";

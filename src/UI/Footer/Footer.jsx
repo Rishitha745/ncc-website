@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../../../assets/ncclogo.svg";
+import logo from "../../assets/ncclogo.svg";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
-import { navItems, socialMedia } from "../../../Constants";
+import { navItems, socialMedia } from "../../Constants";
 
 const Footer = () => {
   let year = new Date().getFullYear();

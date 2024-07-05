@@ -1,6 +1,6 @@
 import React from "react";
 
-const Member = ({ fic }) => {
+const FicMember = ({ fic }) => {
   return (
     <div className="flex items-center justify-center">
       <div className="shadow-lg flex flex-col items-center justify-between gap-5 p-8 rounded-lg">
@@ -18,4 +18,4 @@ const Member = ({ fic }) => {
   );
 };
 
-export default Member;
+export default FicMember;

@@ -74,7 +74,7 @@ const App = ({ handleYearChange }) => {
               },
             }}
           >
-            {Years.map((year, index) => (
+            {Years.reverse().map((year, index) => (
               <SwiperSlide
                 key={index}
                 className={`h-40 w-10 flex items-center justify-center ${
@@ -103,6 +103,7 @@ const App = ({ handleYearChange }) => {
           </button>
         </div>
       </div>
+
     </div>
   );
 };
