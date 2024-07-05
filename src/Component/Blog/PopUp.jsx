@@ -21,7 +21,7 @@ const PopUp = ({ blog, togglePopup }) => {
         <div className="flex items-center justify-between mb-4">
           <h1 className="text-xl font-bold">{blog.title}</h1>
           <div onClick={togglePopup}>
-            <div className="flex cursor-pointer items-center justify-center rounded-full bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-xs xl:text-sm text-slate-50">
+            <div className="flex cursor-pointer items-center justify-center rounded-full bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-xs sm:text-sm xl:text-base text-slate-50">
               Close
             </div>
           </div>
