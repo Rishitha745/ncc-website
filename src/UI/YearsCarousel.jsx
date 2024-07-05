@@ -44,7 +44,7 @@ const App = ({ handleYearChange }) => {
       swiperRef.current.swiper.slideTo(index);
     }
   };
-  handleYearChange(Years[activeIndex].year);
+  handleYearChange(activeIndex);
 
   return (
     <div className="">
@@ -103,18 +103,6 @@ const App = ({ handleYearChange }) => {
           </button>
         </div>
       </div>
-
-      {Years[activeIndex] && (
-        <div className="mt-5 text-center">
-          <h1 className="text-2xl font-bold text-blue-600">
-            {Years[activeIndex].year}
-          </h1>
-          <p className="mt-2 text-sm text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            convallis libero in dui.
-          </p>
-        </div>
-      )}
     </div>
   );
 };

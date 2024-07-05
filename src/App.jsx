@@ -1,6 +1,32 @@
 import React from "react";
-import Header from "./Component/Home/Header/Header";
-import Footer from "./Component/Home/Footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import HomePage from "./Component/Home/HomePage";
+import Teams from "./Component/Teams/Teams";
+import About from "./Component/About/About";
+import Blog from "./Component/Blog/Blog";
+import EventsPage from "./Component/Events/Events";
+import Gallery from "./Component/Gallery/Gallery";
+
+const App = () => {
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/events" element={<EventsPage />} />
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="/Gallery" element={<Gallery />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+};
+
+export default App;
 
 // import Carousel from "./Component/Home/Carousel/Carousel";
 // import Hero from "./Component/Home/Hero/Hero";

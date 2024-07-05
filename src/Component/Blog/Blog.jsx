@@ -3,6 +3,7 @@ import Title from "../../UI/Title";
 import img1 from "../../assets/ncc3.jpg";
 import Card from "./Card";
 import Certificates from "./Certificates";
+import MainLayout from "../../UI/MainLayout";
 
 const blogArray = [
   {
@@ -60,6 +61,7 @@ const blogArray = [
 const Blog = () => {
   return (
     <div>
+    <MainLayout>
       <Title>Blog By IIT-H</Title>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 px-5 mb-20">
         {blogArray.map((blog) => (
@@ -67,6 +69,7 @@ const Blog = () => {
         ))}
       </div>
       <Certificates />
+      </MainLayout>
     </div>
   );
 };
