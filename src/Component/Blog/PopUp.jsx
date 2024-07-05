@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../UI/Button";
-import Carousel from "./Carousel";
+import Carousel from "../../UI/Carousel";
 
 const PopUp = ({ blog, togglePopup }) => {
   const handleOutsideClick = (event) => {
@@ -26,7 +26,7 @@ const PopUp = ({ blog, togglePopup }) => {
         </div>
         <div className="flex-1 overflow-auto mb-5">
           <div className="flex-none mb-5">
-            <Carousel slides={blog.carousel.map((item) => item.img)} />
+            <Carousel slides={blog.carousel} />
           </div>
           <div className="relative overflow-hidden">
             <p className="text-justify">{blog.maincontent}</p>

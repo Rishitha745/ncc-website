@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./Carousel/Carousel";
+import Welcome from "./WelcomeCarousel/Welcome";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import EventsGrid from "./EventsGrid/EventsGrid";
@@ -11,7 +11,7 @@ const HomePage = () => {
     <div>
       <MainLayout>
         <Hero />
-        <Carousel />
+        <Welcome />
         <About />
         <Message />
         <EventsGrid />

@@ -14,6 +14,8 @@ export const navItems = [
   { label: "Training", href: "/training" },
 ];
 
+export const HomeCarousel = [img1, img3, img4, img5, img6, img7];
+
 export const socialMedia = [
   { icon: BsFacebook, href: "#" },
   { icon: BsInstagram, href: "#" },
@@ -21,83 +23,58 @@ export const socialMedia = [
   { icon: BsTwitter, href: "#" },
 ];
 
-import blogCarimg from "../assets/ncc3.jpg";
+import blogCarousel from "../assets/ncc3.jpg";
 
 export const blogArray = [
   {
     id: 1,
-    hero: blogCarimg,
+    hero: blogCarousel,
     title: "Drills and Skills",
     content:
       " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
     maincontent:
       "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
-    carousel: [
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-    ],
+    carousel: [blogCarousel, blogCarousel, blogCarousel, blogCarousel],
   },
   {
     id: 2,
-    hero: blogCarimg,
+    hero: blogCarousel,
     title: "Obstacle Course",
     content:
       " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
     maincontent:
       "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drillsNCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drillsNCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.",
-    carousel: [
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-    ],
+    carousel: [blogCarousel, blogCarousel, blogCarousel, blogCarousel],
   },
   {
     id: 3,
-    hero: blogCarimg,
+    hero: blogCarousel,
     title: "Classes and Courses",
     content:
       " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
     maincontent:
       "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
-    carousel: [
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-    ],
+    carousel: [blogCarousel, blogCarousel, blogCarousel, blogCarousel],
   },
   {
     id: 4,
-    hero: blogCarimg,
+    hero: blogCarousel,
     title: "Obstacle Course",
     content:
       " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
     maincontent:
       "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.",
-    carousel: [
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-    ],
+    carousel: [blogCarousel, blogCarousel, blogCarousel, blogCarousel],
   },
   {
     id: 5,
-    hero: blogCarimg,
+    hero: blogCarousel,
     title: "Classes and Courses",
     content:
       " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
     maincontent:
       "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
-    carousel: [
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-      { img: blogCarimg },
-    ],
+    carousel: [blogCarousel, blogCarousel, blogCarousel, blogCarousel],
   },
 ];
 
