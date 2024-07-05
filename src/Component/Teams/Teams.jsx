@@ -27,7 +27,7 @@ const Teams = () => {
                 ))}
               </div>
               <div className="flex flex-col justify-center sm:flex-row items-center px-6 gap-5 mb-10 sm:mb-20">
-                <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl md:text-xl lg:text-3xl">
+                <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl">
                   Rank Holders
                 </h1>
                 <div className="w-full sm:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-x-7 gap-y-10">
@@ -39,13 +39,16 @@ const Teams = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-center sm:flex-row items-center px-6 gap-5 mb-10 sm:mb-20">
-                <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl md:text-xl lg:text-3xl">
+                <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl">
                   Coordinators
                 </h1>
                 <div className="w-full sm:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-x-7 gap-y-10">
                   {teamsData[currentYear].coordinatorMembers.map(
                     (coordinatorMember, index) => (
-                      <CoordinatorMember key={index} coordinatorMember={coordinatorMember} />
+                      <CoordinatorMember
+                        key={index}
+                        coordinatorMember={coordinatorMember}
+                      />
                     )
                   )}
                 </div>

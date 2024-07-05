@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from "../../UI/Button";
 import PopUp from "./PopUp";
 
 const Card = ({ blog }) => {
@@ -20,10 +19,14 @@ const Card = ({ blog }) => {
           />
         </div>
         <div className="p-5">
-          <h1 className="text-xl font-bold mb-5">{blog.title}</h1>
-          <p className="mb-5">{blog.content}</p>
+          <h1 className="text-xl lg:text-2xl mb-3 font-bold">{blog.title}</h1>
+          <p className="text-[13px] md:text-sm lg:text-base xl:text-lg mb-5">
+            {blog.content}
+          </p>
           <div className="flex justify-start" onClick={togglePopup}>
-            <Button>Read More</Button>
+            <div className="flex cursor-pointer items-center justify-center rounded-full bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-xs xl:text-sm text-slate-50">
+              Read More
+            </div>
           </div>
         </div>
       </div>

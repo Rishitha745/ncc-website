@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="max-w-7xl mx-auto bottom-0">
       <hr className="mb-6 sm:mb-10 border border-neutral-700/80" />
       <div className="grid gap-10 md:gap-0 md:grid-cols-2 px-6 mb-6 sm:mb-10">
-        <div className="flex justify-around items-center sm:justify-evenly md:items-start">
+        <div className="flex justify-evenly items-center  md:items-start">
           <div className="-ml-3">
             <img src={logo} alt="logo" className="w-24 h-24 md:w-36 md:h-36" />
           </div>

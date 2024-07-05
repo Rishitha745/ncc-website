@@ -13,8 +13,8 @@ const RankMember = ({ rankMember }) => {
             />
           </div>
           <div className="absolute inset-0 rounded-full flex flex-col items-center justify-center text-center text-slate-600 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-            <h1>{rankMember.name}</h1>
-            <p>{rankMember.rank}</p>
+            <h1 className="text-sm md:text-base lg:text-lg">{rankMember.name}</h1>
+            <p className="text-sm md:text-base lg:text-lg">{rankMember.rank}</p>
           </div>
         </div>
       </div>

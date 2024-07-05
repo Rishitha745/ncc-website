@@ -17,7 +17,7 @@ const Certificates = () => {
         <div className="flex bg-slate-100 rounded-full">
           <div
             onClick={() => toggleOpenCert(0)}
-            className={`flex cursor-pointer items-center justify-center rounded-full px-5 py-3 text-sm ${
+            className={`flex cursor-pointer items-center justify-center rounded-full px-5 py-3 text-xs sm:text-sm ${
               openCert === 0
                 ? "bg-blue-600 text-slate-50"
                 : "hover:bg-blue-600 hover:text-slate-50"
@@ -27,7 +27,7 @@ const Certificates = () => {
           </div>
           <div
             onClick={() => toggleOpenCert(1)}
-            className={`flex cursor-pointer items-center justify-center rounded-full px-5 py-3 text-sm ${
+            className={`flex cursor-pointer items-center justify-center rounded-full px-5 py-3 text-xs sm:text-sm ${
               openCert === 1
                 ? "bg-blue-600 text-slate-50"
                 : "hover:bg-blue-600 hover:text-slate-50"
@@ -40,8 +40,8 @@ const Certificates = () => {
       {faqData.map(
         (faq, index) =>
           index === openCert && (
-            <div key={index} className="px-5 md:px-10">
-              <h1 className="text-xl font-semibold mb-10">{faq.content}</h1>
+            <div key={index} className="px-2 md:px-10">
+              <h1 className="text-sm md:text-base lg:text-lg text-center mb-10">{faq.content}</h1>
               <Faqs
                 faqs={faq.questions.map((item) => [item.question, item.answer])}
               />

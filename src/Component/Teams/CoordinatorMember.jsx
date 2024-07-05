@@ -13,10 +13,10 @@ const CoordinatorMember = ({ coordinatorMember }) => {
             />
           </div>
           <div className="absolute inset-0 rounded-full flex flex-col items-center justify-center text-center text-slate-600 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-            <h1>{coordinatorMember.name}</h1>
+            <h1 className="text-sm md:text-base lg:text-lg">{coordinatorMember.name}</h1>
           </div>
         </div>
-        <p className="mt-5">{coordinatorMember.role}</p>
+        <p className="mt-5 text-sm md:text-base lg:text-lg">{coordinatorMember.role}</p>
       </div>
     </div>
   );

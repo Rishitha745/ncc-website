@@ -18,10 +18,12 @@ const PopUp = ({ blog, togglePopup }) => {
         className="w-[95vw] md:w-[75vw] h-[75vh] bg-slate-200 rounded-xl p-5 px-4 md:px-8 flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="flex items-center justify-between mb-5">
+        <div className="flex items-center justify-between mb-4">
           <h1 className="text-xl font-bold">{blog.title}</h1>
           <div onClick={togglePopup}>
-            <Button>Close</Button>
+            <div className="flex cursor-pointer items-center justify-center rounded-full bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-xs xl:text-sm text-slate-50">
+              Close
+            </div>
           </div>
         </div>
         <div className="flex-1 overflow-auto mb-5">
@@ -29,7 +31,7 @@ const PopUp = ({ blog, togglePopup }) => {
             <Carousel slides={blog.carousel} />
           </div>
           <div className="relative overflow-hidden">
-            <p className="text-justify">{blog.maincontent}</p>
+            <p className="text-sm sm:text-base lg:text-lg leading-relaxed">{blog.maincontent}</p>
           </div>
         </div>
       </div>

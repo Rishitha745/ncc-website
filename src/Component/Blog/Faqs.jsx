@@ -21,14 +21,18 @@ const Faqs = ({ faqs }) => {
             className="flex flex-col rounded-xl border-slate-200 bg-white"
           >
             <button
-              className="flex justify-between rounded-xl w-full bg-slate-300 p-6"
+              className="flex justify-between items-center rounded-xl w-full bg-slate-300 p-6"
               onClick={() => toggleOpen(index)}
             >
-              <h4 className="text-sm font-semibold">{faq[0]}</h4>
-              <FaAngleDown className="text-3xl text-slate-600" />
+              <h4 className="text-xs sm:text-base lg:text-lg font-semibold">
+                {faq[0]}
+              </h4>
+              <FaAngleDown className="text-2xl sm:text-3xl text-slate-600" />
             </button>
             {openIndex === index && (
-              <p className="text-slate-600 p-6">{faq[1]}</p>
+              <p className="text-slate-600 text-xs sm:text-base lg:text-lg p-6">
+                {faq[1]}
+              </p>
             )}
           </div>
         );
