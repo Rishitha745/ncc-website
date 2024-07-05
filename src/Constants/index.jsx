@@ -1,11 +1,3 @@
-import img1 from "../assets/ncc1.png";
-import img3 from "../assets/ncc3.jpg";
-import img4 from "../assets/ncc4.jpg";
-import img5 from "../assets/ncc5.jpg";
-import img6 from "../assets/ncc6.jpg";
-import img7 from "../assets/ncc7.jpg";
-import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
-
 export const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
@@ -14,8 +6,15 @@ export const navItems = [
   { label: "Training", href: "/training" },
 ];
 
+import img1 from "../assets/ncc1.png";
+import img3 from "../assets/ncc3.jpg";
+import img4 from "../assets/ncc4.jpg";
+import img5 from "../assets/ncc5.jpg";
+import img6 from "../assets/ncc6.jpg";
+import img7 from "../assets/ncc7.jpg";
 export const HomeCarousel = [img1, img3, img4, img5, img6, img7];
 
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 export const socialMedia = [
   { icon: BsFacebook, href: "#" },
   { icon: BsInstagram, href: "#" },
@@ -24,7 +23,6 @@ export const socialMedia = [
 ];
 
 import blogCarousel from "../assets/ncc3.jpg";
-
 export const blogArray = [
   {
     id: 1,
@@ -78,13 +76,6 @@ export const blogArray = [
   },
 ];
 
-export const imageCarousel = [img1, img3, img1, img4, img5, img6, img7];
-
-import car1 from "../assets/ncc3.jpg";
-import car2 from "../assets/ncc4.jpg";
-import car3 from "../assets/ncc5.jpg";
-import car4 from "../assets/ncc6.jpg";
-import car5 from "../assets/ncc7.jpg";
 import {
   BookOpen,
   Crosshair,
@@ -97,21 +88,12 @@ import {
 } from "lucide-react";
 
 import { PiShirtFoldedFill } from "react-icons/pi";
-
-export const IMAGES = [
-  { url: car1, alt: "Car One" },
-  { url: car2, alt: "Car Two" },
-  { url: car3, alt: "Car Three" },
-  { url: car4, alt: "Car Four" },
-  { url: car5, alt: "Car Five" },
-];
-
 export const aboutData = [
   {
     name: "About NCC",
     image: Menu,
     content:
-      "The  ewfbwekjfndskvnksdfnkdfv  enfguewgpege3 National Cadet Corps (NCC) is a youth development movement. It has enormous potential for nation-building. The NCC provides opportunities to the youth of the country for their all-round development with a sense of Duty, Commitment, Dedication, Discipline, and Moral Values so that they become able leaders and useful citizens. The NCC provides exposure to the cadets in a wide range of activities, with a distinct emphasis on Social Services, Discipline, and Adventure Training.",
+      "The National Cadet Corps (NCC) is a youth development movement. It has enormous potential for nation-building. The NCC provides opportunities to the youth of the country for their all-round development with a sense of Duty, Commitment, Dedication, Discipline, and Moral Values so that they become able leaders and useful citizens. The NCC provides exposure to the cadets in a wide range of activities, with a distinct emphasis on Social Services, Discipline, and Adventure Training.",
   },
   {
     name: "Aim of NCC",
@@ -295,7 +277,6 @@ export const eventsData = [
 ];
 
 import img from "../assets/ncc3.jpg";
-
 export const teamsData = [
   {
     year: 2024,
