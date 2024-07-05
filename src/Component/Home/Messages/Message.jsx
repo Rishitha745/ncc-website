@@ -7,19 +7,19 @@ const Message = () => {
   return (
     <div className="">
       <Title>Message</Title>
-      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 mr-10 md:mr-28 gap-5">
-        <div className="w-1/3 lg:w-1/4 flex flex-col justify-center items-center gap-2">
-          <div className="w-44 h-44 overflow-hidden rounded-full">
+      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 mr-10 md:mr-28 gap-4 sm:gap-6">
+        <div className="w-1/3 lg:w-1/4 flex flex-col justify-center items-center ">
+          <div className="w-44 h-44 overflow-hidden rounded-full mb-3">
             <img src={img} className="w-full h-full object-cover" alt="" />
           </div>
-          <h1 className="text-2xl font-bold">Name</h1>
+          <h1 className="text-2xl font-bold mb-1">Name</h1>
           <h2 className="text-1xl font-semibold">Role</h2>
         </div>
         <div className="self-start">
           <Quote className="rotate-180 text-slate-700" size={40} />
         </div>
         <div className="w-full mg:w-2/3 lg:w-3/4 px-10 md:px-0">
-          <p className="text-slate-700">
+          <p className="text-slate-700 text-sm sm:text-base lg:text-lg xl:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             facilisi. Sed euismod, justo ac ultricies tincidunt, nunc nisl
             tincidunt nunc, vitae lacinia nunc nisl id nunc. Sed vitae semper
@@ -32,12 +32,12 @@ const Message = () => {
           <Quote className="text-slate-700" size={40} />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 ml-10 md:ml-28 gap-5">
+      <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 ml-10 md:ml-28 gap-4 sm:gap-6">
         <div className="self-start">
           <Quote className="rotate-180 text-slate-700" size={40} />
         </div>
         <div className="w-full mg:w-2/3 lg:w-3/4 px-10 md:px-0">
-          <p className="text-slate-700">
+          <p className="text-slate-700 text-sm sm:text-base lg:text-lg xl:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             facilisi. Sed euismod, justo ac ultricies tincidunt, nunc nisl
             tincidunt nunc, vitae lacinia nunc nisl id nunc. Sed vitae semper
@@ -49,11 +49,11 @@ const Message = () => {
         <div className="self-end">
           <Quote className="text-slate-700" size={40} />
         </div>
-        <div className="w-1/3 lg:w-1/4 flex flex-col justify-center items-center gap-2">
-          <div className="w-44 h-44 overflow-hidden rounded-full">
+        <div className="w-1/3 lg:w-1/4 order-first md:order-last flex flex-col justify-center items-center ">
+          <div className="w-44 h-44 overflow-hidden rounded-full mb-3">
             <img src={img} className="w-full h-full object-cover" alt="" />
           </div>
-          <h1 className="text-2xl font-bold">Name</h1>
+          <h1 className="text-2xl font-bold mb-1">Name</h1>
           <h2 className="text-1xl font-semibold">Role</h2>
         </div>
       </div>

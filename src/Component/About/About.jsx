@@ -31,7 +31,7 @@ const About = () => {
   return (
     <div>
       <MainLayout>
-        <div className="px-6 mb-6 sm:mb-10 flex gap-6 relative">
+        <div className="px-6 mb-6 sm:mb-10 flex gap-12 relative">
           <div className="hidden md:block max-h-min">
             <SideBar
               showcurrentIndex={showCurrentIndex}
@@ -40,9 +40,9 @@ const About = () => {
               toggleSideBar={toggleSideBar}
             />
           </div>
-          <div className="flex-1 flex justify-center items-start px-6">
+          <div className="flex-1 flex justify-center items-start ">
             <div className="relative">
-              <h1 className="text-2xl flex items-center justify-between">
+              <h1 className="mb-5 flex items-center justify-between text-2xl sm:text-3xl lg:text-4xl">
                 {aboutData[showCurrentIndex].name}
                 <MenuIcon
                   size={24}
@@ -51,7 +51,7 @@ const About = () => {
                 />
               </h1>
               <div
-                className={`absolute top-10 z-10 w-full transition-transform duration-300 ${
+                className={`absolute top-10 z-10 w-full transition-transform duration-300 md:hidden ${
                   showMobileSideBar ? "" : "hidden"
                 }`}
               >
@@ -62,7 +62,7 @@ const About = () => {
                   toggleMobileSideBar={toggleMobileSideBar}
                 />
               </div>
-              <p className="mt-5 text-slate-600">
+              <p className="text-slate-600 text-sm sm:text-base lg:text-lg xl:text-xl">
                 {aboutData[showCurrentIndex].content}
               </p>
             </div>

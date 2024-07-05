@@ -9,9 +9,9 @@ const About = () => {
     <div className="mb-6 sm:mt-10 px-6">
       <Title> About Us </Title>
       <div className="grid gap-10 lg:gap-16 lg:grid-cols-2 px-4 mb-6 md:mb-10">
-        <div className="flex flex-col items-center lg:text-start lg:items-start justify-center gap-6">
-          <h2 className="text-3xl">Our College</h2>
-          <p className="text-center lg:text-start">
+        <div className="flex flex-col items-center lg:text-start lg:items-start justify-center gap-4 sm:gap-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl">Our College</h2>
+          <p className="text-sm sm:text-base lg:text-lg xl:text-xl text-center lg:text-start">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             quidem, doloremque, quae quos voluptates, quod quia doloribus
             voluptas quibusdam tempore nemo. Quisquam quidem, doloremque, quae
@@ -32,9 +32,9 @@ const About = () => {
             <img className="w-full h-full" src={img2} alt="" />
           </div>
         </div>
-        <div className="lg:order-2 flex flex-col items-center lg:text-start lg:items-start justify-center gap-6">
-          <h2 className="text-3xl">NCC in IITH</h2>
-          <p className="text-center lg:text-start">
+        <div className="lg:order-2 flex flex-col items-center lg:text-start lg:items-start justify-center gap-4 sm:gap-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl">NCC in IITH</h2>
+          <p className="text-sm sm:text-base lg:text-lg xl:text-xl text-center lg:text-start">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             quidem, doloremque, quae quos voluptates, quod quia doloribus
             voluptas quibusdam tempore nemo. Quisquam quidem, doloremque, quae

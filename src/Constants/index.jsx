@@ -39,7 +39,6 @@ export const homeEventsGrid = [
   },
 ];
 
-
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 export const socialMedia = [
   { icon: BsFacebook, href: "#" },
@@ -212,12 +211,7 @@ export const faqData = [
   },
 ];
 
-
-export const Years = [
-  { year: 2024 },
-  { year: 2023 },
-  { year: 2022 },
-];
+export const Years = [{ year: 2024 }, { year: 2023 }, { year: 2022 }];
 
 export const eventsData = [
   {
@@ -238,12 +232,12 @@ export const eventsData = [
       {
         title: "Camp Visit",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "1st-10th June 2024",
+        date: "1st-10th Jun 2024",
         image: img1,
       },
       {
         title: "Independence Day Parade",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         date: "15th Aug 2024",
         image: img1,
       },
@@ -267,7 +261,7 @@ export const eventsData = [
       {
         title: "Camp Visit",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "1st-10th June 2023",
+        date: "1st-10th Jun 2023",
         image: img1,
       },
       {
@@ -296,7 +290,7 @@ export const eventsData = [
       {
         title: "Camp Visit",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "1st-10th June 2022",
+        date: "1st-10th Jun 2022",
         image: img1,
       },
       {
