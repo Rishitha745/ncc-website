@@ -11,8 +11,8 @@ const Card = ({ blog }) => {
 
   return (
     <div className="flex justify-center">
-      <div className="w-64 md:w-80 rounded-lg shadow-lg overflow-hidden">
-        <div className="w-64 md:w-80 h-auto overflow-hidden">
+      <div className="w-64 sm:w-80 rounded-lg shadow-lg overflow-hidden">
+        <div className="w-64 sm:w-80 h-auto overflow-hidden">
           <img
             src={blog.hero}
             alt="title image"

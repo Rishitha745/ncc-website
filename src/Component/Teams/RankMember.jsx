@@ -1,6 +1,6 @@
 import React from "react";
 
-const RankMember = ({ member }) => {
+const RankMember = ({ rankMember }) => {
   return (
     <div className="flex items-center justify-center">
       <div className="group [perspective:1000px]">
@@ -8,13 +8,13 @@ const RankMember = ({ member }) => {
           <div className="absolute w-full h-full inset-0 rounded-full [backface-visibility:hidden]">
             <img
               className="w-full h-full object-cover rounded-full"
-              src={member.img}
+              src={rankMember.img}
               alt="Member"
             />
           </div>
           <div className="absolute inset-0 rounded-full flex flex-col items-center justify-center text-center text-slate-600 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-            <h1>{member.name}</h1>
-            <p>Rank of the cadet</p>
+            <h1>{rankMember.name}</h1>
+            <p>{rankMember.rank}</p>
           </div>
         </div>
       </div>

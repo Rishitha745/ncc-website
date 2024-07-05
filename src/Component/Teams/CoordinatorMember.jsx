@@ -1,6 +1,6 @@
 import React from "react";
 
-const CoordinatorMember = ({ coordinator }) => {
+const CoordinatorMember = ({ coordinatorMember }) => {
   return (
     <div className="flex items-center justify-center">
       <div className="group flex flex-col items-center [perspective:1000px]">
@@ -8,16 +8,15 @@ const CoordinatorMember = ({ coordinator }) => {
           <div className="absolute w-full h-full inset-0 rounded-full [backface-visibility:hidden]">
             <img
               className="w-full h-full object-cover rounded-full"
-              src={coordinator.img}
+              src={coordinatorMember.img}
               alt="Member"
             />
           </div>
           <div className="absolute inset-0 rounded-full flex flex-col items-center justify-center text-center text-slate-600 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-            <h1>{coordinator.name}</h1>
-            <p>Rank of the cadet</p>
+            <h1>{coordinatorMember.name}</h1>
           </div>
         </div>
-        <p className="mt-5">Role</p>
+        <p className="mt-5">{coordinatorMember.role}</p>
       </div>
     </div>
   );

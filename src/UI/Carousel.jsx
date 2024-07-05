@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { RiArrowLeftWideLine, RiArrowRightWideLine } from "react-icons/ri";
 
 function App({ slides }) {
-  console.log(slides);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {

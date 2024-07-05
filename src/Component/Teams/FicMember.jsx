@@ -1,18 +1,18 @@
 import React from "react";
 
-const FicMember = ({ fic }) => {
+const FicMember = ({ ficMember }) => {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex flex-col items-center justify-center">
+      <h1 className="mb-5 font-bold text-2xl">{ficMember.role}</h1>
       <div className="shadow-lg flex flex-col items-center justify-between gap-5 p-8 rounded-lg">
         <div className="w-44 md:w-52 h-44  md:h-52 rounded-full">
           <img
             className="w-full h-full object-cover rounded-full"
-            src={fic.img}
+            src={ficMember.img}
             alt="Member"
           />
         </div>
-        <h1>{fic.name}</h1>
-        <p>Rank of the cadet</p>
+        <h1>{ficMember.name}</h1>
       </div>
     </div>
   );

@@ -186,6 +186,13 @@ export const faqData = [
   },
 ];
 
+
+export const Years = [
+  { year: 2024 },
+  { year: 2023 },
+  { year: 2022 },
+];
+
 export const eventsData = [
   {
     year: 2024,
@@ -284,54 +291,66 @@ export const teamsData = [
       {
         img: img,
         name: "John Doe",
+        role: "FIC Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        role: "FIC Member",
       },
     ],
     rankMembers: [
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
     ],
-    coordinators: [
+    coordinatorMembers: [
       {
         img: img,
         name: "John Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "Jane Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "John Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "Jane Doe",
+        role: "Coordinator",
       },
     ],
   },
@@ -340,55 +359,67 @@ export const teamsData = [
     ficMembers: [
       {
         img: img,
-        name: "John Doe",
+        name: "Jim Doe",
+        role: "FIC Member",
       },
       {
         img: img,
-        name: "Jane Doe",
+        name: "Jum Doe",
+        role: "FIC Member",
       },
     ],
     rankMembers: [
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
     ],
-    coordinators: [
+    coordinatorMembers: [
       {
         img: img,
         name: "John Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "Jane Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "John Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "Jane Doe",
+        role: "Coordinator",
       },
     ],
   },
@@ -397,55 +428,67 @@ export const teamsData = [
     ficMembers: [
       {
         img: img,
-        name: "John Doe",
+        name: "Jik Doe",
+        role: "FIC Member",
       },
       {
         img: img,
-        name: "Jane Doe",
+        name: "Juk Doe",
+        role: "FIC Member",
       },
     ],
     rankMembers: [
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "John Doe",
+        rank: "Rank Member",
       },
       {
         img: img,
         name: "Jane Doe",
+        rank: "Rank Member",
       },
     ],
-    coordinators: [
+    coordinatorMembers: [
       {
         img: img,
         name: "John Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "Jane Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "John Doe",
+        role: "Coordinator",
       },
       {
         img: img,
         name: "Jane Doe",
+        role: "Coordinator",
       },
     ],
   },

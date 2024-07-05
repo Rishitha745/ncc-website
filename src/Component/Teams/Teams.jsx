@@ -21,9 +21,9 @@ const Teams = () => {
           <YearsCarousel handleYearChange={handleYearChange} />
           {teamsData[currentYear] ? (
             <>
-              <div className="flex flex-col sm:flex-row items-center justify-evenly mb-20">
+              <div className="flex flex-col gap-12 sm:flex-row items-center justify-evenly mb-20">
                 {teamsData[currentYear].ficMembers.map((ficMember, index) => (
-                  <FicMember key={index} fic={ficMember} />
+                  <FicMember key={index} ficMember={ficMember} />
                 ))}
               </div>
               <div className="flex flex-col justify-center sm:flex-row items-center p-2 sm:p-5 gap-5 mb-20">
@@ -33,7 +33,7 @@ const Teams = () => {
                 <div className="w-full sm:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-x-7 gap-y-10">
                   {teamsData[currentYear].rankMembers.map(
                     (rankMember, index) => (
-                      <RankMember key={index} member={rankMember} />
+                      <RankMember key={index} rankMember={rankMember} />
                     )
                   )}
                 </div>
@@ -43,16 +43,16 @@ const Teams = () => {
                   Coordinators
                 </h1>
                 <div className="w-full sm:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-x-7 gap-y-10">
-                  {teamsData[currentYear].coordinators.map(
-                    (coordinator, index) => (
-                      <CoordinatorMember key={index} coordinator={coordinator} />
+                  {teamsData[currentYear].coordinatorMembers.map(
+                    (coordinatorMember, index) => (
+                      <CoordinatorMember key={index} coordinatorMember={coordinatorMember} />
                     )
                   )}
                 </div>
               </div>
             </>
           ) : (
-            <div className="my-10 text-center">
+            <div className="my-10 text-center mb-12">
               <h1 className="text-xl sm:text-2xl font-bold text-blue-600 px-10">
                 OOPS! NCC in IITH was not established then.
               </h1>
