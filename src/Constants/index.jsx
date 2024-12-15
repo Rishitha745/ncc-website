@@ -4,6 +4,7 @@ export const navItems = [
   { label: "Events", href: "/events" },
   { label: "Council", href: "/council" },
   { label: "Training", href: "/training" },
+  { label: "Gallery", href: "/gallery" },
 ];
 
 import img1 from "../assets/ncc1.jpg";
@@ -39,8 +40,14 @@ export const homeEventsGrid = [
 
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 export const socialMedia = [
-  { icon: BsFacebook, href: "https://www.facebook.com/profile.php?id=100091668218879" },
-  { icon: BsInstagram, href: "https://instagram.com/ncc_iit_hyderabad?igshid=MmIzYWVlNDQ5Yg==" },
+  {
+    icon: BsFacebook,
+    href: "https://www.facebook.com/profile.php?id=100091668218879",
+  },
+  {
+    icon: BsInstagram,
+    href: "https://instagram.com/ncc_iit_hyderabad?igshid=MmIzYWVlNDQ5Yg==",
+  },
   { icon: BsLinkedin, href: "#" },
   { icon: BsTwitter, href: "#" },
 ];

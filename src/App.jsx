@@ -7,6 +7,7 @@ import About from "./Component/About/About";
 import Blog from "./Component/Blog/Blog";
 import EventsPage from "./Component/Events/Events";
 import Gallery from "./Component/Gallery/Gallery";
+import ContactUs from "./Component/ContactUs/ContactUsPage"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/events" element={<EventsPage />} />
           <Route path="/training" element={<Blog />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contactus" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
     </div>
