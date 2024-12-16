@@ -7,7 +7,7 @@ import About from "./Component/About/About";
 import Blog from "./Component/Blog/Blog";
 import EventsPage from "./Component/Events/Events";
 import Gallery from "./Component/Gallery/Gallery";
-import ContactUs from "./Component/ContactUs/ContactUsPage"
+import ContactUs from "./Component/ContactUs/ContactUs"
 
 const App = () => {
   return (

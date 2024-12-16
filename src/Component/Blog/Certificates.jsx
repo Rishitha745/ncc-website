@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Title from "../../UI/Title";
-import Faqs from "./Faqs";
-import { faqData } from "../../Constants";
+import Faqs from "../../UI/Faqs";
+import { faqDataInTraining } from "../../Constants";
 
 const Certificates = () => {
   const [openCert, setOpenCert] = useState(0);
@@ -37,11 +37,13 @@ const Certificates = () => {
           </div>
         </div>
       </div>
-      {faqData.map(
+      {faqDataInTraining.map(
         (faq, index) =>
           index === openCert && (
             <div key={index} className="px-2 md:px-10">
-              <h1 className="text-sm md:text-base lg:text-lg text-center mb-10">{faq.content}</h1>
+              <h1 className="text-sm md:text-base lg:text-lg text-center mb-10">
+                {faq.content}
+              </h1>
               <Faqs
                 faqs={faq.questions.map((item) => [item.question, item.answer])}
               />

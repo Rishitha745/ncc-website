@@ -7,33 +7,37 @@ export const navItems = [
   { label: "Gallery", href: "/gallery" },
 ];
 
-import img1 from "../assets/ncc1.jpg";
-import img2 from "../assets/ncc2.jpg";
-import img3 from "../assets/ncc3.jpg";
-import img4 from "../assets/ncc4.jpg";
-export const HomeCarousel = [img1, img2, img3, img4];
+import img1 from "../assets/Home/Carousel/ncc1.png";
+import img2 from "../assets/Home/Carousel/ncc2.jpg";
+import img3 from "../assets/Home/Carousel/ncc3.png";
+import img4 from "../assets/Home/Carousel/ncc4.png";
+import img5 from "../assets/Home/Carousel/ncc5.jpg";
+import img6 from "../assets/Home/Carousel/ncc6.jpg";
+export const HomeCarousel = [img1, img2, img3, img4, img5, img6];
 
-import parade from "../assets/parade.avif";
-import firing from "../assets/firing.webp";
+import camp from "../assets/Home/EventGrid/camp.jpg";
+import days from "../assets/Home/EventGrid/days.png";
+import firing from "../assets/Home/EventGrid/firing.jpg";
+import rank from "../assets/Home/EventGrid/rank.jpg";
 export const homeEventsGrid = [
   {
     title: "Firing",
-    image: parade,
+    image: firing,
     info: "",
   },
   {
     title: "Days",
-    image: firing,
+    image: days,
     info: "",
   },
   {
     title: "Rank",
-    image: parade,
+    image: rank,
     info: "",
   },
   {
     title: "Camp",
-    image: firing,
+    image: camp,
     info: "",
   },
 ];
@@ -52,60 +56,125 @@ export const socialMedia = [
   { icon: BsTwitter, href: "#" },
 ];
 
-import blogimg1 from "../assets/ncc1.jpg";
-import blogimg2 from "../assets/ncc2.jpg";
-import blogimg3 from "../assets/ncc3.jpg";
-import blogimg4 from "../assets/ncc4.jpg";
+import cs1 from "../assets/Training/cs1.jpg";
+import cs2 from "../assets/Training/cs2.jpg";
+import cs3 from "../assets/Training/cs3.jpg";
+import cs4 from "../assets/Training/cs4.jpg";
+
+import ds1 from "../assets/Training/ds1.jpg";
+import ds2 from "../assets/Training/ds2.jpg";
+import ds3 from "../assets/Training/ds3.jpg";
+import ds4 from "../assets/Training/ds4.jpg";
+
+import ot1 from "../assets/Training/ot1.jpg";
+import ot2 from "../assets/Training/ot2.jpg";
+import ot3 from "../assets/Training/ot3.jpg";
+import ot4 from "../assets/Training/ot4.jpg";
+
+import tc1 from "../assets/Training/tc1.jpg";
+import tc2 from "../assets/Training/tc2.jpg";
+import tc3 from "../assets/Training/tc3.jpg";
+import tc4 from "../assets/Training/tc4.jpg";
+
+import rc1 from "../assets/Training/rc1.jpg";
+import rc2 from "../assets/Training/rc2.jpg";
+import rc3 from "../assets/Training/rc3.jpg";
+import rc4 from "../assets/Training/rc4.jpg";
+
+import cc1 from "../assets/Training/cc1.jpg";
+import cc2 from "../assets/Training/cc2.jpg";
+import cc3 from "../assets/Training/cc3.jpg";
+import cc4 from "../assets/Training/cc4.jpg";
+
+import ts1 from "../assets/Training/ts1.jpg";
+import ts2 from "../assets/Training/ts2.jpg";
+import ts3 from "../assets/Training/ts3.jpg";
+import ts4 from "../assets/Training/ts4.jpg";
+
+import be1 from "../assets/Training/be1.jpg";
+import be2 from "../assets/Training/be2.jpg";
+import be3 from "../assets/Training/be3.jpg";
+import be4 from "../assets/Training/be4.jpg";
 export const blogArray = [
   {
     id: 1,
-    hero: blogimg1,
-    title: "Drills and Skills",
+    hero: cs1,
+    title: "Cadets Selection",
     content:
-      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+      "The selection process for NCC cadets at IIT Hyderabad is designed to identify students who exhibit potential, discipline, and a willingness to serve.",
     maincontent:
-      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
-    carousel: [blogimg1, blogimg2, blogimg3, blogimg4],
+      "The selection process for NCC cadets at IIT Hyderabad is designed to identify students who exhibit potential, discipline, and a willingness to serve. The process begins with a formal application where interested students register their names. This is followed by a screening process that includes a physical fitness test to assess endurance, strength, and overall physical capability. In some cases, basic drills or group activities are used to observe teamwork and responsiveness. Successful candidates are inducted into NCC, where they embark on a journey of discipline, leadership, and service through structured training programs and activities.",
+    carousel: [cs1, cs2, cs3, cs4],
   },
   {
     id: 2,
-    hero: blogimg1,
-    title: "Obstacle Course",
+    hero: ds1,
+    title: "Drills and Skills",
     content:
-      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+      "At IIT Hyderabad, NCC drill and command training sessions are conducted with precision and dedication, following the highest standards of discipline.",
     maincontent:
-      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drillsNCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drillsNCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.",
-    carousel: [blogimg1, blogimg2, blogimg3, blogimg4],
+      "At IIT Hyderabad, NCC drill and command training sessions are conducted with precision and dedication, following the highest standards of discipline. Under the guidance of experienced military instructors and senior cadets, cadets are trained in marching, saluting, and executing commands with synchronized movements. These drills enhance physical fitness, coordination, and attention to detail. Regular practice sessions ensure that cadets perfect their posture, timing, and responsiveness. This training not only instills discipline and teamwork but also builds confidence and leadership skills among cadets. The rigorous drill routines prepare cadets to perform impressive parades and ceremonial duties, reflecting the spirit and excellence of the NCC at IIT Hyderabad.",
+    carousel: [ds1, ds2, ds3, ds4],
   },
   {
     id: 3,
-    hero: blogimg1,
-    title: "Classes and Courses",
+    hero: ot1,
+    title: "Obstacle Course",
     content:
-      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+      "Obstacle training at IIT Hyderabad (IITH) is an essential part of the NCC program, designed to improve physical fitness, teamwork, and problem-solving abilities.",
     maincontent:
-      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
-    carousel: [blogimg1, blogimg2, blogimg3, blogimg4],
+      "Obstacle training at IIT Hyderabad (IITH) is an essential part of the NCC program, designed to improve physical fitness, teamwork, and problem-solving abilities. It typically involves navigating various physical challenges, such as climbing walls, crawling under ropes, balancing on beams, and other agility exercises. These obstacles are designed to test cadets' endurance, strength, and mental resilience. The training promotes discipline, perseverance, and teamwork as cadets often work together to overcome obstacles. It helps improve their coordination, stamina, and confidence, which are vital qualities for leadership and personal development. Obstacle training also prepares cadets for real-life situations where quick thinking and physical agility are crucial. It encourages cadets to push their limits, building resilience in the face of adversity, both physically and mentally.",
+    carousel: [ot1, ot2, ot3, ot4],
   },
   {
     id: 4,
-    hero: blogimg1,
-    title: "Obstacle Course",
+    hero: tc1,
+    title: "Theory classes",
     content:
-      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+      "NCC theory classes, conducted by senior officials, play a pivotal role in the overall development of cadets.",
     maincontent:
-      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills. NCC is a great platform to learn new skills and drills.",
-    carousel: [blogimg1, blogimg2, blogimg3, blogimg4],
+      "NCC theory classes, conducted by senior officials, play a pivotal role in the overall development of cadets. These sessions instill discipline, confidence, and a sense of responsibility, providing comprehensive knowledge on military and civilian topics beneficial for personal growth and future endeavors. The curriculum covers essential subjects such as National Integration and Awareness, Weapon Training, Map Reading and Navigation, First Aid and Health & Hygiene, and Environment Awareness and Conservation. Practical skills taught in these classes, like first aid, navigation, and leadership, are invaluable. The structured and disciplined environment of NCC theory classes helps shape cadets into responsible and informed citizens, preparing them to face challenges and contribute meaningfully to society.",
+    carousel: [tc1, tc2, tc3, tc4],
   },
   {
     id: 5,
-    hero: blogimg1,
-    title: "Classes and Courses",
+    hero: rc1,
+    title: "Rank Ceremony",
     content:
-      " NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
+      "NCC cadets are ranked to teach discipline and leadership by copying the military structure.",
     maincontent:
-      "NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.NCC is a great platform to learn new skills and drills.",
-    carousel: [blogimg1, blogimg2, blogimg3, blogimg4],
+      "The NCC ranks help foster discipline, leadership, and responsibility among cadets, reflecting the military structure. Senior ranks such as Senior Under Officer (SUO), Under Officer (UO), Company Quarter Master Sergeant (CQMS), Company Sergeant Major (CSM), and Sergeant play pivotal roles in managing and organizing cadet activities. These ranks ensure smooth coordination and leadership, enabling cadets to take on responsibilities beyond their peers. For this event, our Director and respective professor will recognize and honor the accomplishments and roles of these ranked cadets.",
+    carousel: [rc1, rc2, rc3, rc4],
+  },
+  {
+    id: 6,
+    hero: cc1,
+    title: "CATC camp",
+    content:
+      "The Combined Annual Training Camp (CATC) is a comprehensive training program where NCC cadets undergo intensive learning and skill-building under the guidance of experienced military instructors.",
+    maincontent:
+      "The Combined Annual Training Camp (CATC) is a comprehensive training program where NCC cadets undergo intensive learning and skill-building under the guidance of experienced military instructors. The camp typically lasts for 10 to 12 days and includes a mix of theory sessions, practical drills, and physical training. Cadets participate in activities like drill practice, weapon training, map reading, obstacle courses, and first aid demonstrations. The camp also emphasizes teamwork, leadership, and discipline through group activities, cultural programs, and competitive events. Daily routines are structured with physical fitness sessions in the morning, theory classes during the day, and recreational activities in the evening. CATC helps cadets build confidence, develop essential military skills, and foster camaraderie and a spirit of service",
+    carousel: [cc1, cc2, cc3, cc4],
+  },
+  {
+    id: 7,
+    hero: ts4,
+    title: "Thal Sainik Camp",
+    content:
+      "The Thal Sainik Camp (TSC) iS conducted under the guidance of experienced military instructors, the camp includes rigorous training in weapon handling, fieldcraft, and physical fitness.",
+    maincontent:
+      "The Thal Sainik Camp (TSC) is an annual NCC event held in September, conducted under the guidance of experienced military instructors. The camp focuses on rigorous training in weapon handling, fieldcraft, and physical fitness, aiming to instill leadership, discipline, and essential military skills among cadets. TSC features competitive events that promote teamwork, camaraderie, and the spirit of national integration. This prestigious camp prepares cadets to face future challenges and fosters a commitment to excellence and service to the nation.",
+    carousel: [ts1, ts2, ts3, ts4],
+  },
+  {
+    id: 8,
+    hero: be1,
+    title: "B-certificate examination",
+    content:
+      " The B Certificate examination for NCC cadets at the Sangareddy Battalion evaluates both theory and practical skills.",
+    maincontent:
+      "The B Certificate examination for NCC cadets at the Sangareddy Battalion evaluates both theory and practical skills. The theory exam tests knowledge in areas like National Integration, Leadership, Weapon Training, Map Reading, First Aid, and Environmental Awareness. The practical exam assesses cadets' proficiency in drill movements, weapon handling, map reading, first aid demonstrations, and physical fitness. This examination ensures cadets are well-versed in essential skills, reinforcing discipline, leadership, and responsibility.",
+    carousel: [be1, be2, be3, be4],
   },
 ];
 
@@ -125,76 +194,74 @@ export const aboutData = [
   {
     name: "About NCC",
     image: Menu,
-    content:
-      "The National Cadet Corps (NCC) is a youth development movement. It has enormous potential for nation-building. The NCC provides opportunities to the youth of the country for their all-round development with a sense of Duty, Commitment, Dedication, Discipline, and Moral Values so that they become able leaders and useful citizens. The NCC provides exposure to the cadets in a wide range of activities, with a distinct emphasis on Social Services, Discipline, and Adventure Training.",
   },
   {
     name: "Aim of NCC",
     image: Crosshair,
-    content:
-      "The NCC aims at developing character, comradeship, discipline, a secular outlook, the spirit of adventure, and ideals of selfless service amongst young citizens. Further, it aims at creating a pool of organized, trained, and motivated youth with leadership qualities in all walks of life, who will serve the Nation regardless of which career they choose.",
   },
   {
     name: "NCC Motto",
     image: SquareActivity,
-    content:
-      "The motto of NCC is ‘Unity and Discipline’ which was adopted on 23 Dec 1957. In living up to its motto, the NCC strives to be and is one of the greatest cohesive forces of our nation, bringing together the youth hailing from different parts of the country and moulding them into united, secular, and disciplined citizens of the nation.",
   },
   {
     name: "NCC Song",
     image: Music,
-    content:
-      "The NCC song was adopted in January 1963. The song was written by Sudarshan Faakir and composed by the then Director of Music, Maj. Gen. (Dr.) V. Mani. The following is the English version of the NCC song.",
   },
   {
     name: "NCC Pledge",
     image: BookOpen,
-    content:
-      "WE THE CADET OF THE NATIONAL CADET CORPS, DO SOLEMNLY PLEDGE THAT WE SHALL ALWAYS UPHOLD THE UNITY OF INDIA. WE RESOLVE TO BE DISCIPLINED AND RESPONSIBLE CITIZEN OF OUR NATION. WE SHALL UNDERTAKE POSITIVE COMMUNITY SERVICE IN THE SPIRIT OF SELFLESSNESS AND CONCERN FOR OUR FELLOW BEINGS.",
   },
   {
     name: "NCC Flag",
     image: Flag,
-    content:
-      "The NCC flag for various units of NCC was first introduced in 1951. The flag contains the NCC badge in gold in the middle, the letters “NCC” encircled by a wreath of seventeen leaves in gold at the top left-hand corner, and the whole set against a background of deep blue.",
   },
   {
     name: "NCC Uniform",
     image: PiShirtFoldedFill,
-    content:
-      "The NCC uniform consists of a khaki shirt and khaki trousers for army cadets, light blue shirts and navy blue pants for navy cadets, and sky blue shirts and navy blue pants for air force cadets. The cadets wear their respective service rank insignia on the shoulders.",
   },
   {
     name: "NCC Rank",
     image: ShieldHalf,
-    content:
-      "The rank of an NCC cadet starts from Cadet and goes up to the Senior Under Officer. The Senior Under Officer is the senior most cadet of the NCC unit of a college. The cadets are given ranks according to their performance and achievements in the NCC.",
   },
   {
     name: "History of NCC",
     image: History,
-    content:
-      "The NCC in India was formed with the National Cadet Corps Act of 1948. It was raised on 15 July 1948. The origin of NCC can be traced back to the ‘University Corps’, which was created under the Indian Defence Act 1917, with the objective to make up for the shortage of the Army.",
   },
 ];
 
-export const faqData = [
+export const faqDataInTraining = [
   {
     type: "B-certificate",
     content:
       "'B' Certificate is awarded to SD/SW Cadets of schools/colleges after the completion of 2 years training course and passing 'B' Cert examination conducted by NCC authorities.",
     questions: [
       {
-        question: "Question-1",
-        answer: "Answer",
+        question: "Is the A Certificate necessary to obtain the B Certificate?",
+        answer:
+          "No, the A Certificate is not mandatory for obtaining the B Certificate. However, having an A Certificate can provide foundational knowledge and skills that help in B Certificate training.",
       },
       {
-        question: "Question-2",
-        answer: "Answer",
+        question:
+          "How many camps are required to qualify for the B Certificate?",
+        answer:
+          "Cadets must attend at least one camp, such as a Combined Annual Training Camp (CATC), to be eligible for the B Certificate.",
       },
       {
-        question: "Question-3",
-        answer: "Answer",
+        question: "What are the eligibility criteria for the B Certificate?",
+        answer:
+          "To qualify for the B Certificate, a cadet must have attended a minimum of 75% of the total training parades and completed at least one year of NCC training.",
+      },
+      {
+        question:
+          "What is the age limit for obtaining the B Certificate and what subjects are covered in the B Certificate exam?",
+        answer:
+          "The age limit for obtaining the B Certificate is typically 19 years. The exam covers subjects like Drill, Weapon Training, Map Reading, National Integration, First Aid, and Leadership.",
+      },
+      {
+        question:
+          "How long does it take to complete the B Certificate training and can I appear for the B Certificate exam if I miss a camp?",
+        answer:
+          "It typically takes 2 years of NCC training to complete the requirements for the B Certificate. And no, attending at least one camp is mandatory to be eligible for the B Certificate exam.",
       },
     ],
   },
@@ -204,22 +271,147 @@ export const faqData = [
       "'C' Certificate is awarded to SD/SW Cadets of colleges after the completion of 3 years training course and passing 'C' Cert examination conducted for it.",
     questions: [
       {
-        question: "Question-1",
-        answer: "Answer",
+        question:
+          "Is the B Certificate required to appear for the C Certificate exam?",
+        answer:
+          "Yes, the B Certificate is a prerequisite for appearing in the C Certificate exam. Cadets must have successfully completed the B Certificate before qualifying for the C exam.",
       },
       {
-        question: "Question-2",
-        answer: "Answer",
+        question: "What subjects are covered in the C Certificate exam?",
+        answer:
+          "The C Certificate exam includes subjects such as Advanced Drill, Weapon Training, Map Reading, Leadership, National Integration, and Military History.",
       },
       {
-        question: "Question-3",
-        answer: "Answer",
+        question: "What is the age limit for the C Certificate exam?",
+        answer:
+          "Cadets must be between the ages of 18 and 24 years to appear for the C Certificate exam.",
+      },
+      {
+        question: "What are the eligibility criteria for the C Certificate?",
+        answer:
+          "To be eligible for the C Certificate exam, cadets must have completed two years of NCC training, attended the required camps, and have completed the B Certificate.",
+      },
+      {
+        question: "How does the C Certificate benefit cadets?",
+        answer:
+          "The C Certificate provides extra points in government job recruitments, reservations in defense services, and is a prestigious achievement for cadets looking for leadership roles.",
+      },
+      {
+        question: "How is the C Certificate exam conducted?",
+        answer:
+          "The C Certificate exam includes theory tests, practical assessments (like drill, weapon handling, etc.), and physical fitness tests.",
+      },
+      {
+        question: "What happens if I fail the C Certificate exam?",
+        answer:
+          "If you fail the C Certificate exam, you can reappear in the exam the following year, provided you meet the eligibility criteria and attend the required camps.",
       },
     ],
   },
 ];
 
 export const Years = [{ year: 2024 }, { year: 2023 }, { year: 2022 }];
+// 2024
+import rd24a from "../assets/Events/2024/rd1.jpg";
+import rd24b from "../assets/Events/2024/rd2.jpg";
+import rd24c from "../assets/Events/2024/rd3.jpg";
+import rd24d from "../assets/Events/2024/rd4.jpg";
+import rd24e from "../assets/Events/2024/rd5.jpg";
+import rd24f from "../assets/Events/2024/rd6.jpg";
+import rd24g from "../assets/Events/2024/rd7.jpg";
+import rd24h from "../assets/Events/2024/rd8.jpg";
+import rd24i from "../assets/Events/2024/rd9.jpg";
+
+import rc24a from "../assets/Events/2024/rc1.jpg";
+import rc24b from "../assets/Events/2024/rc2.jpg";
+import rc24c from "../assets/Events/2024/rc3.jpg";
+import rc24d from "../assets/Events/2024/rc4.jpg";
+import rc24e from "../assets/Events/2024/rc5.jpg";
+import rc24f from "../assets/Events/2024/rc6.jpg";
+
+import c124a from "../assets/Events/2024/c1a.jpg";
+import c124b from "../assets/Events/2024/c1b.jpg";
+import c124c from "../assets/Events/2024/c1c.jpg";
+import c124d from "../assets/Events/2024/c1d.jpg";
+import c124e from "../assets/Events/2024/c1e.jpg";
+import c124f from "../assets/Events/2024/c1f.jpg";
+import c124g from "../assets/Events/2024/c1g.jpg";
+import c124h from "../assets/Events/2024/c1h.jpg";
+import c124i from "../assets/Events/2024/c1i.jpg";
+import c124j from "../assets/Events/2024/c1j.jpg";
+
+import yo24a from "../assets/Events/2024/yo1.jpg";
+import yo24b from "../assets/Events/2024/yo2.jpg";
+import yo24c from "../assets/Events/2024/yo3.jpg";
+import yo24d from "../assets/Events/2024/yo4.jpeg";
+
+import in24a from "../assets/Events/2024/ina.png";
+import in24b from "../assets/Events/2024/inb.png";
+import in24c from "../assets/Events/2024/inc.png";
+import in24d from "../assets/Events/2024/ind.png";
+import in24e from "../assets/Events/2024/ine.png";
+import in24f from "../assets/Events/2024/inf.png";
+import in24g from "../assets/Events/2024/ing.png";
+import in24h from "../assets/Events/2024/inh.png";
+import in24i from "../assets/Events/2024/ini.png";
+import in24j from "../assets/Events/2024/inj.png";
+import in24k from "../assets/Events/2024/ink.png";
+import in24l from "../assets/Events/2024/inl.png";
+import in24m from "../assets/Events/2024/inm.jpg";
+
+import gc24a from "../assets/Events/2024/gca.png";
+import gc24b from "../assets/Events/2024/gcb.png";
+import gc24c from "../assets/Events/2024/gcc.png";
+import gc24d from "../assets/Events/2024/gcd.png";
+import gc24e from "../assets/Events/2024/gce.png";
+import gc24f from "../assets/Events/2024/gcf.png";
+import gc24g from "../assets/Events/2024/gcg.png";
+import gc24h from "../assets/Events/2024/gch.png";
+import gc24i from "../assets/Events/2024/gci.png";
+import gc24j from "../assets/Events/2024/gcj.png";
+import gc24k from "../assets/Events/2024/gck.png";
+import gc24l from "../assets/Events/2024/gcl.png";
+import gc24m from "../assets/Events/2024/gcm.png";
+import gc24n from "../assets/Events/2024/gcn.png";
+import gc24o from "../assets/Events/2024/gco.png";
+import gc24p from "../assets/Events/2024/gcp.png";
+import gc24q from "../assets/Events/2024/gcq.png";
+import gc24r from "../assets/Events/2024/gcr.png";
+import gc24s from "../assets/Events/2024/gcs.png";
+import gc24t from "../assets/Events/2024/gct.png";
+import gc24u from "../assets/Events/2024/gcu.png";
+import gc24v from "../assets/Events/2024/gcv.png";
+import gc24w from "../assets/Events/2024/gcw.png";
+import gc24x from "../assets/Events/2024/gcx.png";
+import gc24y from "../assets/Events/2024/gcy.png";
+
+//2023
+import in23a from "../assets/Events/2023/in1.jpg";
+import in23b from "../assets/Events/2023/in2.jpg";
+import in23c from "../assets/Events/2023/in3.jpg";
+
+import ss23a from "../assets/Events/2023/ss1.jpg";
+import ss23b from "../assets/Events/2023/ss2.jpg";
+import ss23c from "../assets/Events/2023/ss3.jpg";
+import ss23d from "../assets/Events/2023/ss4.jpg";
+import ss23e from "../assets/Events/2023/ss5.jpg";
+import ss23f from "../assets/Events/2023/ss6.jpg";
+import ss23g from "../assets/Events/2023/ss7.jpg";
+import ss23h from "../assets/Events/2023/ss8.jpg";
+import ss23i from "../assets/Events/2023/ss9.jpg";
+import ss23j from "../assets/Events/2023/ss10.jpg";
+import ss23k from "../assets/Events/2023/ss11.jpg";
+import ss23l from "../assets/Events/2023/ss12.jpg";
+
+import c123a from "../assets/Events/2023/c11.jpg";
+import c123b from "../assets/Events/2023/c12.jpg";
+import c123c from "../assets/Events/2023/c13.jpg";
+import c123d from "../assets/Events/2023/c14.jpg";
+
+import c223a from "../assets/Events/2023/c21.jpg";
+import c223b from "../assets/Events/2023/c22.jpg";
+import c223c from "../assets/Events/2023/c23.jpg";
+import c223d from "../assets/Events/2023/c24.jpg";
 
 export const eventsData = [
   {
@@ -227,27 +419,113 @@ export const eventsData = [
     events: [
       {
         title: "Republic Day Parade",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        text: "The Republic Day NCC Parade 2024 was a landmark event at our college, marking the first-ever Guard of Honour conducted by our NCC cadets. The parade began with a Guard of Honour, a formal and ceremonial display of respect, performed to welcome our esteemed Director B.S.Murthy sir, followed by our ANO Digvijay sir. The Guard of Honour was led by Commander CDT L. Bharathkumar, Dahine marker CDT Sanjana Adepu and honour guards CDT P. Srija, CDT Mahathi Priya, CDT Lalith, CDT Sanjay, CDT XXXX, CDT G. Srinivas. The piloting team, responsible for the ceremonial escort of the dignitaries, was led by CDT Mohana and CDT Chandana.",
         date: "26th Jan 2024",
-        image: img1,
+        image: rd24a,
+        gallery: [
+          { src: rd24a },
+          { src: rd24i },
+          { src: rd24b },
+          { src: rd24c },
+          { src: rd24d },
+          { src: rd24e },
+          { src: rd24f },
+          { src: rd24g },
+          { src: rd24h },
+        ],
       },
       {
         title: "Rank Ceremony",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "28th Feb 2024",
-        image: img1,
+        text: "Following the Republic Day NCC parade, our college proudly conducted the Rank Ceremony 2024. The ceremony was held immediately after the Guard of Honour and piloting, adding to the day's significance. We were honored to have distinguished guests gracing the occasion CSO Sreejith, Subedar Shiva Shankar M G, Naib Subedar Bachate. The cadets bestowed with ranks, acknowledging their dedication are SUO L.Bharath Kumar, JUO Srinivas, JUO Chaitanya, CQMS Surbhi, Sergeant Lalit, Lance Corporal Rajeev, Corporal Rama jayathi.",
+        date: "26th Jan 2024",
+        image: rc24a,
+        gallery: [
+          { src: rc24a },
+          { src: rc24b },
+          { src: rc24c },
+          { src: rc24d },
+          { src: rc24e },
+          { src: rc24f },
+        ],
       },
       {
-        title: "Camp Visit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        title: "CATC Camp 1",
+        text: "The Combined Annual Training Camp (CATC) held from June 1 to June 10 at GDC-Gajwel was a successful event with notable achievements. In the Kho-Kho competition, CDT Srija and CDT Sanjana won the First Prize, while in Firing, Parvez secured the Second Place and Sreekar earned the Third Place. The cadets also actively participated in cultural performances. These accomplishments reflect the dedication, discipline, and sportsmanship of our cadets, who continually strive for excellence throughout the camp.",
         date: "1st-10th Jun 2024",
-        image: img1,
+        image: c124a,
+        gallery: [
+          { src: c124a },
+          { src: c124b },
+          { src: c124c },
+          { src: c124d },
+          { src: c124j },
+          { src: c124e },
+          { src: c124f },
+          { src: c124g },
+          { src: c124h },
+          { src: c124i },
+        ],
+      },
+      {
+        title: "International day of yoga",
+        text: "On June 21st, in celebration of International Yoga Day, our NCC cadets participated in various asanas to promote health and wellness. The event was a meaningful occasion where cadets demonstrated their commitment to physical fitness and mindfulness. As per the order from the Training JCOs and Training NCOs of 33 T Bn NCC, cadets captured their participation and shared photos in the group. These moments of unity and discipline were truly inspiring. Below are some photos of our cadets engaging in this important activity.",
+        date: "21st June",
+        image: yo24d,
+        gallery: [{ src: yo24b }, { src: yo24a }, { src: yo24c }],
       },
       {
         title: "Independence Day Parade",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        text: "On Independence Day 2024, all the SW and SD cadets participated in the ceremonial march and flag hoisting, marking the significance of the day. The event was predominantly led by the Security Commanders, with their critical roles in welcoming the director and piloting the flag hoisting ceremony. The Security Commanders also assisted the director in hoisting the flag, ensuring the smooth execution of the event. Their leadership and coordination were pivotal in making the celebration a success, highlighting the discipline and dedication of our NCC cadets.",
         date: "15th Aug 2024",
-        image: img1,
+        image: in24a,
+        gallery: [
+          { src: in24a },
+          { src: in24b },
+          { src: in24c },
+          { src: in24d },
+          { src: in24e },
+          { src: in24f },
+          { src: in24g },
+          { src: in24h },
+          { src: in24i },
+          { src: in24j },
+          { src: in24k },
+          { src: in24m },
+          { src: in24l },
+        ],
+      },
+      {
+        title: "Group Commander visit",
+        text: "We were honored to welcome esteemed dignitaries to IIT Hyderabad for the inauguration of the NCC room in SNCC. The event was graced by Colonel Sunil Abraham sir, Group Commander, and Lieutenant Colonel Mohanty sir, Group Training Officer (TO), who were accompanied by Lieutenant Colonel Ramesh Sariyal sir , Commanding Officer (CO) of the 33 T Battalion. We welcomed them with ceremonial drill trained by Subedar Bachate MG sir, Training JCO, and Havildar Vijay Parmar, PI Staff. We extend our sincere gratitude to these officers for their visit to our college.",
+        date: "19th September",
+        image: gc24q,
+        gallery: [
+          { src: gc24a },
+          { src: gc24b },
+          { src: gc24c },
+          { src: gc24d },
+          { src: gc24e },
+          { src: gc24f },
+          { src: gc24g },
+          { src: gc24h },
+          { src: gc24i },
+          { src: gc24j },
+          { src: gc24k },
+          { src: gc24l },
+          { src: gc24m },
+          { src: gc24n },
+          { src: gc24o },
+          { src: gc24p },
+          { src: gc24q },
+          { src: gc24r },
+          { src: gc24s },
+          { src: gc24t },
+          { src: gc24u },
+          { src: gc24v },
+          { src: gc24w },
+          { src: gc24x },
+          { src: gc24y },
+        ],
       },
     ],
   },
@@ -255,130 +533,113 @@ export const eventsData = [
     year: 2023,
     events: [
       {
-        title: "Republic Day Parade",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "26th Jan 2023",
-        image: img1,
+        title: "NCC Inauguration",
+        text: 'Every moment is a fresh new beginning, a wonderful inauguration of a great journey. We say to you now that our spirit is stronger and cannot be broken. "NCC is not about uniform or uniformity, it is about UNITY"',
+        date: "7th April",
+        image: in23c,
+        gallery: [{ src: in23a }, { src: in23b }, { src: in23c }],
       },
       {
-        title: "Rank Ceremony",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "28th Feb 2023",
-        image: img1,
+        title: "Social Service",
+        text: "Our NCC cadets carried out plantation drives and Swachh Bharat initiatives at our college, contributing significantly to environmental conservation. Through tree planting, they helped combat climate change and enhance biodiversity. Additionally, their efforts in maintaining cleanliness fostered a healthier and safer environment. These initiatives reflect our cadets' commitment to sustainability and responsibility, creating a cleaner, greener future for all.",
+        date: "3rd January",
+        image: ss23a,
+        gallery: [
+          { src: ss23a },
+          { src: ss23b },
+          { src: ss23c },
+          { src: ss23d },
+          { src: ss23e },
+          { src: ss23f },
+          { src: ss23g },
+          { src: ss23h },
+          { src: ss23i },
+          { src: ss23j },
+          { src: ss23k },
+          { src: ss23l },
+        ],
       },
       {
-        title: "Camp Visit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "1st-10th Jun 2023",
-        image: img1,
+        title: "CATC Camp 1",
+        text: "The Combined Annual Training Camp (CATC) held from October 11 to October 21 at GDC-Gajwel was another successful event, with exceptional achievements. IIT Hyderabad's SD cadets' team clinched the Gold Medal in Volleyball, showcasing their strength, teamwork, and dedication. Alongside this, cadets participated actively in various activities, reflecting their discipline and commitment. These accomplishments highlight the outstanding performance and spirit of our cadets throughout the camp.",
+        date: "11th-21st October",
+        image: c123c,
+        gallery: [
+          { src: c123a },
+          { src: c123d },
+          { src: c123b },
+          { src: c123c },
+        ],
       },
       {
-        title: "Independence Day Parade",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "15th Aug 2023",
-        image: img1,
-      },
-    ],
-  },
-  {
-    year: 2022,
-    events: [
-      {
-        title: "Republic Day Parade",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "26th Jan 2022",
-        image: img1,
-      },
-      {
-        title: "Rank Ceremony",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "28th Feb 2022",
-        image: img1,
-      },
-      {
-        title: "Camp Visit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "1st-10th Jun 2022",
-        image: img1,
-      },
-      {
-        title: "Independence Day Parade",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "15th Aug 2022",
-        image: img1,
+        title: "CATC Camp 2",
+        text: "The Combined Annual Training Camp (CATC) held from December 10 to December 14 was another successful event, where our SD cadets demonstrated exceptional accuracy in shooting. Their impressive performance in this skill-based competition reflects their dedication and precision. Alongside this, cadets engaged in various activities, showcasing their discipline and commitment. These achievements highlight the continued excellence and spirit of our cadets throughout the camp.",
+        date: "10th-14th December",
+        image: c223a,
+        gallery: [
+          { src: c223a },
+          { src: c223b },
+          { src: c223c },
+          { src: c223d },
+        ],
       },
     ],
   },
 ];
 
-import img from "../assets/ncc1.jpg";
+import fic1 from "../assets/Council/2023/fic1.png";
+import member from "../assets/Council/2023/member.jpg";
+// import bharath from "../assets/Council/2023/bharath.png"
+import srinivas from "../assets/Council/2023/srinivas.jpg";
+import chaitanya from "../assets/Council/2023/chaitanya.png";
+import surbhi from "../assets/Council/2023/surbhi.jpg";
+import lalit from "../assets/Council/2023/lalit.jpg";
+import rajeev from "../assets/Council/2023/rajeev.jpg";
+import jayathi from "../assets/Council/2023/jayathi.png";
+import manohar from "../assets/Council/2023/manohar.jpg";
+
 export const teamsData = [
   {
     year: 2024,
     ficMembers: [
       {
-        img: img,
-        name: "John Doe",
-        role: "FIC Member",
+        img: fic1,
+        name: "Digvijay S. Pawar",
+        role: "ANO",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        role: "FIC Member",
+        img: member,
+        name: "P. Mohan",
+        role: "AR Hostels",
       },
     ],
     rankMembers: [
       {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
+        img: member,
+        name: "XXXX",
+        rank: "XX",
       },
     ],
     coordinatorMembers: [
       {
-        img: img,
-        name: "John Doe",
-        role: "Coordinator",
+        img: member,
+        name: "Sanjana adepu",
+        role: "Web Coordinator",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        role: "Coordinator",
+        img: member,
+        name: "Palavelli Srija",
+        role: "Activity Lead",
       },
       {
-        img: img,
-        name: "John Doe",
-        role: "Coordinator",
+        img: member,
+        name: "Adurthy Sanjay Raju",
+        role: "Activity Lead",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        role: "Coordinator",
+        img: member,
+        name: "Vundyala sreekar reddy",
+        role: "Social Media Coordinator",
       },
     ],
   },
@@ -386,137 +647,110 @@ export const teamsData = [
     year: 2023,
     ficMembers: [
       {
-        img: img,
-        name: "Jim Doe",
-        role: "FIC Member",
+        img: fic1,
+        name: "Digvijay S. Pawar",
+        role: "ANO",
       },
       {
-        img: img,
-        name: "Jum Doe",
-        role: "FIC Member",
+        img: member,
+        name: "P. Mohan",
+        role: "AR Hostels",
       },
     ],
     rankMembers: [
       {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
+        img: member,
+        name: "L. Bharathkumar",
+        rank: "SUO",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
+        img: srinivas,
+        name: "Guguloth Srinivas",
+        rank: "JUO",
       },
       {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
+        img: chaitanya,
+        name: "Samudrala Chaithanya",
+        rank: "JUO",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
+        img: surbhi,
+        name: "Surbhi",
+        rank: "CQMS",
       },
       {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
+        img: lalit,
+        name: "Lalit Kumar Malav",
+        rank: "Sergeant",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
+        img: rajeev,
+        name: "Rajeev Kumar",
+        rank: "Lance Corporal",
+      },
+      {
+        img: jayathi,
+        name: "Rama jayathi",
+        rank: "Corporal",
       },
     ],
     coordinatorMembers: [
       {
-        img: img,
-        name: "John Doe",
-        role: "Coordinator",
+        img: member,
+        name: "L. Bharathkumar",
+        role: "Traning Coordinator",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        role: "Coordinator",
+        img: srinivas,
+        name: "Guguloth Srinivas",
+        role: "Activity Lead",
       },
       {
-        img: img,
-        name: "John Doe",
-        role: "Coordinator",
+        img: chaitanya,
+        name: "Samudrala Chaithanya",
+        role: "Activity Lead",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        role: "Coordinator",
+        img: rajeev,
+        name: "Rajeev Kumar",
+        role: "Activity Lead",
+      },
+      {
+        img: manohar,
+        name: "Maripe Manohar",
+        role: "Web Coordinator",
+      },
+      {
+        img: surbhi,
+        name: "Surbhi",
+        role: "Social Media Coordinator",
       },
     ],
   },
+];
+
+export const faqData = [
   {
-    year: 2022,
-    ficMembers: [
+    questions: [
       {
-        img: img,
-        name: "Jik Doe",
-        role: "FIC Member",
+        question: "What is the National Cadet Corps (NCC)?",
+        answer:
+          "The National Cadet Corps (NCC) is a youth organization in India that aims to develop character, discipline, leadership, and a spirit of service among young citizens. It is a tri-services organization comprising the Army, Navy, and Air Wing units.",
       },
       {
-        img: img,
-        name: "Juk Doe",
-        role: "FIC Member",
-      },
-    ],
-    rankMembers: [
-      {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
+        question: "What is the aim of the NCC?",
+        answer:
+          "The aim of the NCC is to develop qualities of character, courage, discipline, leadership, and a spirit of service among young citizens. It aims to create a pool of organized, trained, and motivated youth with leadership qualities in all walks of life.",
       },
       {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
+        question: "What is the NCC motto?",
+        answer:
+          "The NCC motto is 'Unity and Discipline,' which reflects the core values of the organization. It emphasizes the importance of unity among cadets from diverse backgrounds and the need for discipline in all aspects of life.",
       },
       {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "John Doe",
-        rank: "Rank Member",
-      },
-      {
-        img: img,
-        name: "Jane Doe",
-        rank: "Rank Member",
-      },
-    ],
-    coordinatorMembers: [
-      {
-        img: img,
-        name: "John Doe",
-        role: "Coordinator",
-      },
-      {
-        img: img,
-        name: "Jane Doe",
-        role: "Coordinator",
-      },
-      {
-        img: img,
-        name: "John Doe",
-        role: "Coordinator",
-      },
-      {
-        img: img,
-        name: "Jane Doe",
-        role: "Coordinator",
+        question: "What is the NCC song?",
+        answer:
+          "The NCC song is 'Hum Sab Bharatiya Hain,' which celebrates the spirit of unity, patriotism, and service. It instills a sense of pride and belonging among cadets and reinforces the core values of the organization.",
       },
     ],
   },

@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../UI/Button";
 
-const EventCard = ({ index, title, text, date, image }) => {
+const EventCard = ({ index, title, text, date, image}) => {
   return (
     <div className="relative">
       <div className="hidden md:block">
@@ -12,7 +12,9 @@ const EventCard = ({ index, title, text, date, image }) => {
                 <h1 className="text-2xl lg:text-3xl mb-3 font-bold">{title}</h1>
                 <p className="text-base lg:text-lg xl:text-xl mb-5">{text}</p>
                 <div className="flex items-start">
-                  <Button>View More</Button>
+                  <a href="/gallery">
+                    <Button>View Gallery</Button>
+                  </a>
                 </div>
               </div>
             ) : (
@@ -31,7 +33,9 @@ const EventCard = ({ index, title, text, date, image }) => {
                 <h1 className="text-2xl lg:text-3xl mb-3 font-bold">{title}</h1>
                 <p className="text-base lg:text-lg xl:text-xl mb-5">{text}</p>
                 <div className="flex items-start">
-                  <Button>View More</Button>
+                  <a href="/gallery">
+                    <Button>View Gallery</Button>
+                  </a>
                 </div>
               </div>
             ) : (
@@ -85,7 +89,7 @@ const EventCard = ({ index, title, text, date, image }) => {
                 <h1 className="text-2xl mb-3 font-bold">{title}</h1>
                 <p className="text-sm mb-5">{text}</p>
                 <div className="flex items-start">
-                  <Button>View More</Button>
+                  <Button>View Gallery</Button>
                 </div>
               </div>
             </div>
@@ -94,7 +98,7 @@ const EventCard = ({ index, title, text, date, image }) => {
 
         <div className="absolute top-4 right-0 left-0 overflow-hidden grid grid-cols-10">
           <div className=""></div>
-          <div className="relative flex  items-center col-span-9 -left-[20px]">
+          <div className="relative flex items-center col-span-9 -left-[20px]">
             <div className="h-14 border-r-[20px] border-slate-600 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent"></div>
             <div className="relative right-5 w-40 h-[40px] bg-slate-500 rounded-r-full flex items-center justify-center text-slate-50">
               {date}

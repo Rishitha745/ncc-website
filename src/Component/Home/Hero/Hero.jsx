@@ -11,6 +11,8 @@ const Hero = () => {
         </h1>
         <p className="text-xl md:text-2xl lg:text-3xl">
           33 (T) N Battalion Sangareddy
+          <br />
+          Nizamabad group
         </p>
       </div>
       <div className="flex items-start justify-center gap-20">

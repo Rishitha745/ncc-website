@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PopUp from "./PopUp";
+import Button from "../../UI/Button";
 
 const Card = ({ blog }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,10 +24,8 @@ const Card = ({ blog }) => {
           <p className="text-[13px] md:text-sm lg:text-base xl:text-lg mb-5">
             {blog.content}
           </p>
-          <div className="flex justify-start" onClick={togglePopup}>
-            <div className="flex cursor-pointer items-center justify-center rounded-full bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-xs xl:text-sm text-slate-50">
-              Read More
-            </div>
+          <div className="flex justify-start">
+            <Button onClick={togglePopup}>Read more</Button>
           </div>
         </div>
       </div>

@@ -5,9 +5,9 @@ import BackToTop from "./BackToTop/BackToTop";
 
 const MainLayout = ({ children }) => {
   return (
-    <div>
+    <div className="relative">
       <Header />
-      <div className="mt-20 sm:mt-24 max-w-7xl mx-auto">{children}</div>
+      <div className="mt-24 max-w-7xl mx-auto">{children}</div>
       <BackToTop />
       <Footer />
     </div>

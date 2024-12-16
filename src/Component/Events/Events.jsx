@@ -16,7 +16,7 @@ const EventsPage = () => {
   return (
     <div>
       <MainLayout>
-        <div className="relative ">
+        <div className="relative">
           <Title>Our Events</Title>
           <YearsCarousel handleYearChange={handleYearChange} />
           {eventsData[currentYear] ? (
