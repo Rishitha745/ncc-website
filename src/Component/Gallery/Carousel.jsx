@@ -1,85 +1,84 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
+import "swiper/css/thumbs";
 
-export default function App() {
+const Carousel = ({ gallery }) => {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-200">
+    <div className="">
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        style={{
+          "--swiper-navigation-color": "#fff",
+          "--swiper-navigation-size": "24px",
         }}
-        pagination={{ clickable: true }}
-        modules={[EffectCoverflow, Pagination]}
-        className="w-full pt-12 pb-12"
+        spaceBetween={10}
+        navigation={true}
+        thumbs={{ swiper: thumbsSwiper }}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="w-full md:w-3/4 md:mx-auto mb-6 md:mb-8"
+        onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
       >
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-1.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-2.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-3.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-4.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-5.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-6.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-7.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-8.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="w-72 h-72 bg-center bg-cover">
-          <img
-            src="https://swiperjs.com/demos/images/nature-9.jpg"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
+        {gallery.map((item, index) => (
+          <SwiperSlide>
+            <div className="w-full h-[40vh] sm:h-[60vh] object-cover">
+              <img
+                key={index}
+                src={item.src}
+                alt={`Gallery image ${index + 1}`}
+                className="overflow-hidden object-cover w-full h-full"
+              />
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
+      <div className="px-2 sm:px-4">
+        <Swiper
+          onSwiper={setThumbsSwiper}
+          spaceBetween={10}
+          slidesPerView={3}
+          breakpoints={{
+            460: {
+              slidesPerView: 5,
+            },
+            768: {
+              slidesPerView: 6,
+            },
+            1024: {
+              slidesPerView: 8,
+            },
+          }}
+          freeMode={true}
+          watchSlidesProgress={true}
+          modules={[FreeMode, Navigation, Thumbs]}
+          className="w-full mb-6 md:mb-8"
+        >
+          {gallery.map((item, index) => (
+            <SwiperSlide key={index}>
+              <div
+                className={`aspect-square object-cover transition-opacity duration-300 ${
+                  activeIndex === index ? "opacity-100" : "opacity-50"
+                }`}
+              >
+                <img
+                  key={index}
+                  src={item.src}
+                  alt={`Gallery image ${index + 1}`}
+                  className="overflow-hidden object-cover w-full h-full"
+                />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
-}
+};
+
+export default Carousel;
