@@ -42,8 +42,8 @@ const ImportantLinks = () => {
           </li>
         </ul>
       </div>
-      <div className="">
-        <a href="/enrollement">
+      <div className="flex items-center justify-center">
+        <a href="/enrollment">
           <Button>Enroll Here</Button>
         </a>
       </div>

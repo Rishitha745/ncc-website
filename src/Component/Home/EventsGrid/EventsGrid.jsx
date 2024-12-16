@@ -27,7 +27,7 @@ const EventGrid = () => {
           </div>
         ))}
       </div>
-      <div className="">
+      <div className="flex items-center justify-center">
         <a href="/events">
           <Button>View Events</Button>
         </a>
