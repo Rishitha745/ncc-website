@@ -128,6 +128,13 @@ const About = () => {
                       is the English version of the NCC song.
                     </p>
                     <br />
+                    <div className="audio-player">
+                      <audio id="nccSongPlayer" controls>
+                        <source src="/nccSong.mp3" type="audio/mp3" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </div>
+                    <br />
                     <div className="text-center">
                       <p className="text-slate-900 font-AbeeZee text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl italic">
                         {isEnglish ? (
@@ -235,6 +242,13 @@ const About = () => {
                         {isEnglish ? "Hindi" : "English"}
                       </Button>
                     </div>
+                    <style jsx>{`
+                      audio {
+                        width: 100%;
+                        max-width: 500px;
+                        margin: auto;
+                      }
+                    `}</style>
                   </>
                 )}
                 {showCurrentIndex === 4 && (
