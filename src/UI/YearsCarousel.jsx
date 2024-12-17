@@ -41,12 +41,12 @@ const App = ({ handleYearChange }) => {
       <div className="w-56 sm:w-96">
         <Swiper
           ref={swiperRef}
-          modules={[Navigation, Pagination]}
           spaceBetween={2}
           slidesPerView={2}
           navigation={{ nextEl: ".arrow-right", prevEl: ".arrow-left" }}
-          pagination={{ clickable: true, dynamicBullets: true }}
+          pagination={{ clickable: true, dynamicBullets: false }}
           centeredSlides={true}
+          modules={[Navigation, Pagination]}
           onSlideChange={handleSlideChange}
           initialSlide={0}
           breakpoints={{
