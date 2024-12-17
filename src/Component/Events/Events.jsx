@@ -33,6 +33,7 @@ const EventsPage = () => {
                   text={event.text}
                   date={event.date}
                   image={event.image}
+                  year={currentYear}
                 />
               ))}
               <div className="flex">

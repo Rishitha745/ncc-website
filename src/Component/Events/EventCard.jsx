@@ -1,7 +1,13 @@
 import React from "react";
 import Button from "../../UI/Button";
+import { useNavigate } from "react-router-dom";
 
-const EventCard = ({ index, title, text, date, image}) => {
+const EventCard = ({ index, title, text, date, image, year }) => {
+  const navigate = useNavigate();
+  function goToGallery({ year, index }) {
+    navigate("/gallery", { state: { year: year, index: index } });
+  }
+
   return (
     <div className="relative">
       <div className="hidden md:block">
@@ -12,9 +18,9 @@ const EventCard = ({ index, title, text, date, image}) => {
                 <h1 className="text-2xl lg:text-3xl mb-3 font-bold">{title}</h1>
                 <p className="text-base lg:text-lg xl:text-xl mb-5">{text}</p>
                 <div className="flex items-start">
-                  <a href="/gallery">
-                    <Button>View Gallery</Button>
-                  </a>
+                  <Button onClick={() => goToGallery({ year, index })}>
+                    View Gallery
+                  </Button>
                 </div>
               </div>
             ) : (
@@ -33,9 +39,9 @@ const EventCard = ({ index, title, text, date, image}) => {
                 <h1 className="text-2xl lg:text-3xl mb-3 font-bold">{title}</h1>
                 <p className="text-base lg:text-lg xl:text-xl mb-5">{text}</p>
                 <div className="flex items-start">
-                  <a href="/gallery">
-                    <Button>View Gallery</Button>
-                  </a>
+                  <Button onClick={() => goToGallery({ year, index })}>
+                    View Gallery
+                  </Button>
                 </div>
               </div>
             ) : (
@@ -89,7 +95,9 @@ const EventCard = ({ index, title, text, date, image}) => {
                 <h1 className="text-2xl mb-3 font-bold">{title}</h1>
                 <p className="text-sm mb-5">{text}</p>
                 <div className="flex items-start">
-                  <Button>View Gallery</Button>
+                  <Button onClick={() => goToGallery({ year, index })}>
+                    View Gallery
+                  </Button>
                 </div>
               </div>
             </div>
