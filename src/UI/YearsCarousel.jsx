@@ -70,7 +70,7 @@ const App = ({ handleYearChange }) => {
               }`}
             >
               <div
-                className={`bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-sm text-slate-50 cursor-pointer rounded-full shadow-slate-500 shadow-lg`}
+                className={`bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-sm text-slate-50 cursor-pointer rounded-full shadow-slate-500 shadow-md`}
                 onClick={() => {
                   handleClick(index);
                 }}
