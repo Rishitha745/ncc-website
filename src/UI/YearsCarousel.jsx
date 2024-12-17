@@ -63,9 +63,9 @@ const App = ({ handleYearChange }) => {
               key={index}
               className={`h-32 w-10 flex items-center justify-center ${
                 isActive(index)
-                  ? "scale-150"
-                  : isAdjacent(index)
                   ? "scale-125"
+                  : isAdjacent(index)
+                  ? ""
                   : ""
               }`}
             >
