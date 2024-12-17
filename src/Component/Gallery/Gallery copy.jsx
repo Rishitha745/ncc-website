@@ -81,7 +81,7 @@ const data = [
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const thumbnailRef = useRef(null); // Ref for the thumbnail container
+  const thumbnailRef = useRef(null);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
