@@ -9,7 +9,7 @@ const Message = () => {
     <div className="">
       <Title>Message</Title>
       <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 mr-10 md:mr-28 gap-4 sm:gap-6">
-        <div className="w-1/3 lg:w-1/4 flex flex-col justify-center items-center ">
+        <div className="w-1/3 lg:w-1/4 flex flex-col justify-center items-center text-center">
           <div className="w-44 h-44 overflow-hidden rounded-full mb-3">
             <img src={director} className="w-full h-full object-cover" alt="" />
           </div>
@@ -56,7 +56,7 @@ const Message = () => {
         <div className="self-end">
           <Quote className="text-slate-700" size={40} />
         </div>
-        <div className="w-1/3 lg:w-1/4 order-first md:order-last flex flex-col justify-center items-center ">
+        <div className="w-1/3 lg:w-1/4 order-first md:order-last flex flex-col justify-center items-center text-center">
           <div className="w-44 h-44 overflow-hidden rounded-full mb-3">
             <img src={ano} className="w-full h-full object-cover" alt="" />
           </div>
