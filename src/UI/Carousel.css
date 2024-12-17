@@ -1,0 +1,11 @@
+.swiper-pagination-bullet {
+  background-color: #ddd;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  scale: 1.5;
+  background-color: #475569;
+  opacity: 1;
+}

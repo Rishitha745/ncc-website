@@ -25,8 +25,10 @@ const PopUp = ({ blog, togglePopup }) => {
           </div>
         </div>
         <div className="flex-1 overflow-auto mb-5">
-          <div className="flex-none mb-5">
-            <Carousel slides={blog.carousel} />
+          <div className="flex items-center justify-center mb-5">
+            <div className="w-full h-full md:w-3/4 md:h-3/4">
+              <Carousel slides={blog.carousel} />
+            </div>
           </div>
           <div className="relative overflow-hidden">
             <p className="text-sm sm:text-base lg:text-lg leading-relaxed">
