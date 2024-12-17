@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MainLayout from "../../UI/MainLayout";
 import { eventsData } from "../../Constants";
 import Carousel from "./Carousel";

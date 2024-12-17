@@ -7,12 +7,14 @@ import About from "./Component/About/About";
 import Blog from "./Component/Blog/Blog";
 import EventsPage from "./Component/Events/Events";
 import Gallery from "./Component/Gallery/Gallery";
-import ContactUs from "./Component/ContactUs/ContactUs"
+import ContactUs from "./Component/ContactUs/ContactUs";
+import ScrollToTop from "./UI/ScrollToTop";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
