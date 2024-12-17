@@ -628,17 +628,17 @@ export const teamsData = [
       },
       {
         img: member,
-        name: "Palavelli Srija",
+        name: "P Srija",
         role: "Activity Lead",
       },
       {
         img: member,
-        name: "Adurthy Sanjay Raju",
+        name: "A Sanjay",
         role: "Activity Lead",
       },
       {
         img: member,
-        name: "Vundyala sreekar reddy",
+        name: "V Sreekar",
         role: "Social Media Coordinator",
       },
     ],
@@ -665,12 +665,12 @@ export const teamsData = [
       },
       {
         img: srinivas,
-        name: "Guguloth Srinivas",
+        name: "Srinivas",
         rank: "JUO",
       },
       {
         img: chaitanya,
-        name: "Samudrala Chaithanya",
+        name: "S Chaithanya",
         rank: "JUO",
       },
       {
@@ -680,12 +680,12 @@ export const teamsData = [
       },
       {
         img: lalit,
-        name: "Lalit Kumar Malav",
+        name: "Lalit Kumar",
         rank: "Sergeant",
       },
       {
         img: rajeev,
-        name: "Rajeev Kumar",
+        name: "Rajeev",
         rank: "Lance Corporal",
       },
       {
@@ -697,27 +697,27 @@ export const teamsData = [
     coordinatorMembers: [
       {
         img: member,
-        name: "L. Bharathkumar",
+        name: "L Bharathkumar",
         role: "Traning Coordinator",
       },
       {
         img: srinivas,
-        name: "Guguloth Srinivas",
+        name: "G Srinivas",
         role: "Activity Lead",
       },
       {
         img: chaitanya,
-        name: "Samudrala Chaithanya",
+        name: "S Chaithanya",
         role: "Activity Lead",
       },
       {
         img: rajeev,
-        name: "Rajeev Kumar",
+        name: "Rajeev",
         role: "Activity Lead",
       },
       {
         img: manohar,
-        name: "Maripe Manohar",
+        name: "M Manohar",
         role: "Web Coordinator",
       },
       {
@@ -733,24 +733,16 @@ export const faqData = [
   {
     questions: [
       {
-        question: "What is the National Cadet Corps (NCC)?",
-        answer:
-          "The National Cadet Corps (NCC) is a youth organization in India that aims to develop character, discipline, leadership, and a spirit of service among young citizens. It is a tri-services organization comprising the Army, Navy, and Air Wing units.",
+        question: "Join NCC by Submitting the Enrollment Form.",
+        answer: `Are you interested in joining the National Cadet Corps (NCC)? Please note that enrollment is only open to those who have been pre-selected by NCC officials and have received an official selection email.<br /><br />How to Enroll:<br />1. Download and Fill Out the Enrollment Form: <a href='/enrollmentForm.pdf' target='_blank' style='color: blue; text-decoration: underline;'>Download Form</a><br />2. Submit the Hard Copy: Submit the completed form to the NCC office by the specified deadline.<br /><br />You can refer to the pre-filled enrollment form for reference: <a href='/enrollmentFormDemo.pdf' target='_blank' style='color: blue; text-decoration: underline;'>Pre-Filled Enrollment Form</a><br /><br />By following these steps, you'll be on your way to becoming a proud NCC cadet! If you have any questions, please contact the NCC office.`,
       },
       {
-        question: "What is the aim of the NCC?",
-        answer:
-          "The aim of the NCC is to develop qualities of character, courage, discipline, leadership, and a spirit of service among young citizens. It aims to create a pool of organized, trained, and motivated youth with leadership qualities in all walks of life.",
+        question: "CATC and ATC Camp Documents.",
+        answer: `If you are attending the CATC or ATC camp, you need to:<br /><br />1. Fill out and submit the hard copy of the camp document: <a href='/campDocument.doc' target='_blank' style='color: blue; text-decoration: underline'>Camp Document</a><br /><br />Please ensure form is submitted by the specified deadline.`,
       },
       {
-        question: "What is the NCC motto?",
-        answer:
-          "The NCC motto is 'Unity and Discipline,' which reflects the core values of the organization. It emphasizes the importance of unity among cadets from diverse backgrounds and the need for discipline in all aspects of life.",
-      },
-      {
-        question: "What is the NCC song?",
-        answer:
-          "The NCC song is 'Hum Sab Bharatiya Hain,' which celebrates the spirit of unity, patriotism, and service. It instills a sense of pride and belonging among cadets and reinforces the core values of the organization.",
+        question: "B-Certificate exam Admit card form.",
+        answer: `Fill and submit the hard copy of the admit card form before attending the B-cert examination: <a href='/bAdmitCard.doc' target='_blank' style='color: blue; text-decoration: underline;'>Download Admit Card Form</a>.`,
       },
     ],
   },

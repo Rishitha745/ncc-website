@@ -10,7 +10,9 @@ const ImportantLinks = () => {
         <ul className="list-disc list-inside space-y-2 text-sm sm:text-base lg:text-xl">
           <li>
             <a
-              href="/enrollment"
+              href="/enrollmentForm.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 visited:text-purple-600 hover:underline"
             >
               Enrollment Form
@@ -18,15 +20,19 @@ const ImportantLinks = () => {
           </li>
           <li>
             <a
-              href="/pre-enrolled"
+              href="/preFilledEnrollmentForm.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 visited:text-purple-600 hover:underline"
             >
-              Pre-Enrolled Form
+              Pre-Filled Enrollment Form
             </a>
           </li>
           <li>
             <a
-              href="/camp-document"
+              href="/campDocument.doc"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 visited:text-purple-600 hover:underline"
             >
               Camp Document
@@ -34,7 +40,9 @@ const ImportantLinks = () => {
           </li>
           <li>
             <a
-              href="/admit-card"
+              href="/admitCard.doc"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 visited:text-purple-600 hover:underline"
             >
               Admit Card

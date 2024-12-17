@@ -12,11 +12,11 @@ const Card = ({ blog }) => {
   return (
     <div className="flex justify-center">
       <div className="w-full sm:w-80 rounded-lg shadow-lg overflow-hidden">
-        <div className="w-full sm:w-80 h-auto overflow-hidden">
+        <div className="w-full sm:w-80 h-48 overflow-hidden">
           <img
             src={blog.hero}
             alt="title image"
-            className="w-full h-full rounded-t-lg hover:scale-110 transform-all duration-300"
+            className="w-full h-full object-cover rounded-t-lg hover:scale-110 transform-all duration-300"
           />
         </div>
         <div className="p-5">

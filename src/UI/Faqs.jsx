@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa";
 
 const Faqs = ({ faqs }) => {
   const [openIndex, setOpenIndex] = useState(null);
+  const containerRef = useRef(null);
 
   const toggleOpen = (index) => {
     if (openIndex === index) {
@@ -12,8 +13,24 @@ const Faqs = ({ faqs }) => {
     }
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target)
+      ) {
+        setOpenIndex(null);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5" ref={containerRef}>
       {faqs.map((faq, index) => {
         return (
           <div
