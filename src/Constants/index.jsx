@@ -4,7 +4,6 @@ export const navItems = [
   { label: "Events", href: "/events" },
   { label: "Council", href: "/council" },
   { label: "Training", href: "/training" },
-  { label: "Gallery", href: "/gallery" },
 ];
 
 import img1 from "../assets/Home/Carousel/ncc1.png";

@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const EventCard = ({ index, title, text, date, image, year }) => {
   const navigate = useNavigate();
+
   function goToGallery({ year, index }) {
     navigate("/gallery", { state: { year: year, index: index } });
   }
