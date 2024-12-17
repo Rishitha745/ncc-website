@@ -157,16 +157,6 @@ export const blogArray = [
   },
   {
     id: 7,
-    hero: ts4,
-    title: "Thal Sainik Camp",
-    content:
-      "The Thal Sainik Camp (TSC) iS conducted under the guidance of experienced military instructors, the camp includes rigorous training in weapon handling, fieldcraft, and physical fitness.",
-    maincontent:
-      "The Thal Sainik Camp (TSC) is an annual NCC event held in September, conducted under the guidance of experienced military instructors. The camp focuses on rigorous training in weapon handling, fieldcraft, and physical fitness, aiming to instill leadership, discipline, and essential military skills among cadets. TSC features competitive events that promote teamwork, camaraderie, and the spirit of national integration. This prestigious camp prepares cadets to face future challenges and fosters a commitment to excellence and service to the nation.",
-    carousel: [ts1, ts2, ts3, ts4],
-  },
-  {
-    id: 8,
     hero: be1,
     title: "B-certificate examination",
     content:
@@ -609,7 +599,12 @@ export const teamsData = [
       {
         img: member,
         name: "P. Mohan",
-        role: "AR Hostels",
+        role: "CTO",
+      },
+      {
+        img: member,
+        name: "Shiv Raj",
+        role: "Drill Instructor",
       },
     ],
     rankMembers: [
@@ -653,7 +648,12 @@ export const teamsData = [
       {
         img: member,
         name: "P. Mohan",
-        role: "AR Hostels",
+        role: "CTO",
+      },
+      {
+        img: member,
+        name: "Shiv Raj",
+        role: "Drill Instructor",
       },
     ],
     rankMembers: [

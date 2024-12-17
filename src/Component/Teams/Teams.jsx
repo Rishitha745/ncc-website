@@ -21,10 +21,23 @@ const Teams = () => {
           <YearsCarousel handleYearChange={handleYearChange} />
           {teamsData[currentYear] ? (
             <>
-              <div className="flex flex-col gap-10 sm:flex-row items-center justify-evenly mb-10 sm:mb-20">
-                {teamsData[currentYear].ficMembers.map((ficMember, index) => (
-                  <FicMember key={index} ficMember={ficMember} />
-                ))}
+              <div className="flex items-center justify-center mb-10 sm:mb-20">
+                {teamsData[currentYear].ficMembers.map(
+                  (ficMember, index) =>
+                    index === 0 && (
+                      <FicMember key={index} ficMember={ficMember} />
+                    )
+                )}
+              </div>
+              {/* Use this division if there are more instructors. */}
+              {/* <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 mb-10 sm:mb-20"></div> */}
+              <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 mb-10 sm:mb-20">
+                {teamsData[currentYear].ficMembers.map(
+                  (ficMember, index) =>
+                    index !== 0 && (
+                      <FicMember key={index} ficMember={ficMember} />
+                    )
+                )}
               </div>
               <div className="flex flex-col justify-center sm:flex-row items-start px-6 gap-5 mb-10 sm:mb-20">
                 <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl">

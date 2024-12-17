@@ -354,6 +354,18 @@ const About = () => {
                         <li>He must be the cadet of Second Year in NCC.</li>
                       </ol>
                       <br />
+                      <strong>Company Quarter Master Sergeant</strong>
+                      <ol className="list-disc list-inside bullet-points">
+                        <li>
+                          They must have been present at least 75% times in the
+                          parade.
+                        </li>
+                        <li>
+                          They must have passed the test of drill and map
+                          reading.
+                        </li>
+                      </ol>
+                      <br />
                       <strong> Junior Under Officer (JUO)</strong>
                       <ol className="list-disc list-inside bullet-points">
                         <li>
