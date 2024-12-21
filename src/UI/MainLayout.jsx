@@ -7,7 +7,7 @@ const MainLayout = ({ children }) => {
   return (
     <div className="relative">
       <Header />
-      <div className="mt-28 max-w-7xl mx-auto">{children}</div>
+      <div className="mt-24 lg:mt-28 max-w-7xl mx-auto">{children}</div>
       <BackToTop />
       <Footer />
     </div>
