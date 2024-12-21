@@ -8,6 +8,7 @@ import Blog from "./Component/Blog/Blog";
 import EventsPage from "./Component/Events/Events";
 import Gallery from "./Component/Gallery/Gallery";
 import ContactUs from "./Component/ContactUs/ContactUs";
+import Enrollment from "./Component/Enrollment/Enrollment";
 import ScrollToTop from "./UI/ScrollToTop";
 
 const App = () => {
@@ -24,13 +25,14 @@ const App = () => {
           <Route path="/training" element={<Blog />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/enrollment" element={<Enrollment />} />
         </Routes>
       </BrowserRouter>
     </div>
   );
 };
-
 export default App;
+
 // import Carousel from "./Component/Home/Carousel/Carousel";
 // import Hero from "./Component/Home/Hero/Hero";
 // import About from "./Component/Home/About/About";
