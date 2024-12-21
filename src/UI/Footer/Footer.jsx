@@ -9,6 +9,7 @@ const Footer = () => {
   let year = new Date().getFullYear();
   return (
     <footer className="max-w-7xl mx-auto bottom-0">
+      <div className="pb-6"></div>
       <hr className="mb-6 sm:mb-10 border border-neutral-700/80" />
       <div className="grid gap-10 md:gap-0 md:grid-cols-2 px-6 mb-6 sm:mb-10">
         <div className="flex justify-evenly items-center  md:items-start">

@@ -23,9 +23,9 @@ const Gallery = () => {
   const event = eventsData[location.state.year].events[location.state.index];
 
   return (
-    <div>
+    <>
       <MainLayout>
-        <div className="flex items-center justify-center md:mt-6 mb-6 sm:mt-10 px-6">
+        <div className="flex items-center justify-center mb-6 sm:mb-10 px-6">
           <div className="relative w-full sm:w-[90%] h-20 sm:h-24 lg:h-32 bg-slate-400 shadow-lg rounded-lg px-4 py-2">
             <div className="flex items-center justify-center text-xl md:text-2xl lg:text-3xl w-full h-full">
               {event.title}
@@ -37,7 +37,7 @@ const Gallery = () => {
         </div>
         <Carousel gallery={event.gallery}></Carousel>
       </MainLayout>
-    </div>
+    </>
   );
 };
 

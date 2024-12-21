@@ -8,7 +8,7 @@ import MainLayout from "../../UI/MainLayout";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <MainLayout>
         <Hero />
         <Welcome />
@@ -16,7 +16,7 @@ const HomePage = () => {
         <Message />
         <EventsGrid />
       </MainLayout>
-    </div>
+    </>
   );
 };
 

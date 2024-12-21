@@ -6,7 +6,7 @@ const ImportantLinks = () => {
   return (
     <div className="px-6 mb-6 sm:mb-10">
       <Title>Important Forms</Title>
-      <div className="px-2 md:px-10 mb-6 md:mb-8">
+      <div className="px-2 md:px-10 mb-6 sm:mb-10">
         <ul className="list-disc list-inside space-y-2 text-sm sm:text-base lg:text-xl">
           <li>
             <a

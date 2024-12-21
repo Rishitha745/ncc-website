@@ -27,7 +27,7 @@ const BackToTop = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-6 right-6">
+    <div className="fixed bottom-8 right-8 scale-150">
       {isVisible && (
         <button
           type="button"

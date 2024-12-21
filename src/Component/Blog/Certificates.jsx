@@ -13,7 +13,7 @@ const Certificates = () => {
   return (
     <div className="px-6 mb-6 sm:mb-10">
       <Title>About Exams</Title>
-      <div className="flex items-center justify-center mb-10">
+      <div className="flex items-center justify-center mb-6 sm:mb-10">
         <div className="flex bg-slate-100 rounded-full">
           <div
             onClick={() => toggleOpenCert(0)}
@@ -41,7 +41,7 @@ const Certificates = () => {
         (faq, index) =>
           index === openCert && (
             <div key={index} className="px-2 md:px-10">
-              <h1 className="text-sm md:text-base lg:text-lg text-center mb-10">
+              <h1 className="text-sm md:text-base lg:text-lg text-center mb-6 sm:mb-10">
                 {faq.content}
               </h1>
               <Faqs

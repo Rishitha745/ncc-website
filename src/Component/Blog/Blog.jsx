@@ -7,7 +7,7 @@ import MainLayout from "../../UI/MainLayout";
 
 const Blog = () => {
   return (
-    <div>
+    <>
       <MainLayout>
         <Title>Training at IITH</Title>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 px-6 mb-6 sm:mb-10">
@@ -17,7 +17,7 @@ const Blog = () => {
         </div>
         <Certificates />
       </MainLayout>
-    </div>
+    </>
   );
 };
 

@@ -32,7 +32,7 @@ const App = ({ handleYearChange }) => {
   handleYearChange(activeIndex);
 
   return (
-    <div className="flex gap-4 items-center justify-center mb-10">
+    <div className="flex gap-4 items-center justify-center mb-6 sm:mb-10">
       <div className="leftbutton">
         <button className="arrow-left">
           <CircleArrowLeft size={25} />
@@ -44,7 +44,7 @@ const App = ({ handleYearChange }) => {
           spaceBetween={2}
           slidesPerView={2}
           navigation={{ nextEl: ".arrow-right", prevEl: ".arrow-left" }}
-          pagination={{ clickable: true, dynamicBullets: false }}
+          // pagination={{ clickable: true, dynamicBullets: false }}
           centeredSlides={true}
           modules={[Navigation, Pagination]}
           onSlideChange={handleSlideChange}

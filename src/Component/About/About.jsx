@@ -39,7 +39,7 @@ const About = () => {
   };
 
   return (
-    <div>
+    <>
       <MainLayout>
         <div className="px-6 mb-6 sm:mb-10 flex gap-12 relative">
           <div className="hidden md:block max-h-min">
@@ -458,7 +458,7 @@ const About = () => {
           </div>
         </div>
       </MainLayout>
-    </div>
+    </>
   );
 };
 

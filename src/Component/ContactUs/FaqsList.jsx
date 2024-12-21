@@ -12,7 +12,7 @@ const FaqsList = () => {
     <div className="px-6 mb-6 sm:mb-10">
       <Title>FAQ'S</Title>
       {faqData.map((faq, index) => (
-        <div key={index} className="px-2 md:px-10 mb-6 overflow-x-hidden">
+        <div key={index} className="px-2 md:px-10 mb-6 sm:mb-10 overflow-x-hidden">
           <Faqs
             faqs={faq.questions.map((item) => [
               item.question,

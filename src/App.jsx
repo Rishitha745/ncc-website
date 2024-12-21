@@ -13,7 +13,7 @@ import ScrollToTop from "./UI/ScrollToTop";
 
 const App = () => {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
@@ -28,7 +28,7 @@ const App = () => {
           <Route path="/enrollment" element={<Enrollment />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 };
 export default App;

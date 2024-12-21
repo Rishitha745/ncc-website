@@ -458,7 +458,7 @@ export const eventsData = [
       {
         title: "International day of yoga",
         text: "On June 21st, in celebration of International Yoga Day, our NCC cadets participated in various asanas to promote health and wellness. The event was a meaningful occasion where cadets demonstrated their commitment to physical fitness and mindfulness. As per the order from the Training JCOs and Training NCOs of 33 T Bn NCC, cadets captured their participation and shared photos in the group. These moments of unity and discipline were truly inspiring. Below are some photos of our cadets engaging in this important activity.",
-        date: "21st June",
+        date: "21st June 2024",
         image: yo24d,
         gallery: [{ src: yo24b }, { src: yo24a }, { src: yo24c }],
       },
@@ -486,7 +486,7 @@ export const eventsData = [
       {
         title: "Group Commander visit",
         text: "We were honored to welcome esteemed dignitaries to IIT Hyderabad for the inauguration of the NCC room in SNCC. The event was graced by Colonel Sunil Abraham sir, Group Commander, and Lieutenant Colonel Mohanty sir, Group Training Officer (TO), who were accompanied by Lieutenant Colonel Ramesh Sariyal sir , Commanding Officer (CO) of the 33 T Battalion. We welcomed them with ceremonial drill trained by Subedar Bachate MG sir, Training JCO, and Havildar Vijay Parmar, PI Staff. We extend our sincere gratitude to these officers for their visit to our college.",
-        date: "19th September",
+        date: "19th September 2024",
         image: gc24q,
         gallery: [
           { src: gc24a },
@@ -524,14 +524,14 @@ export const eventsData = [
       {
         title: "NCC Inauguration",
         text: 'Every moment is a fresh new beginning, a wonderful inauguration of a great journey. We say to you now that our spirit is stronger and cannot be broken. "NCC is not about uniform or uniformity, it is about UNITY"',
-        date: "7th April",
+        date: "7th April 2023",
         image: in23c,
         gallery: [{ src: in23a }, { src: in23b }, { src: in23c }],
       },
       {
         title: "Social Service",
         text: "Our NCC cadets carried out plantation drives and Swachh Bharat initiatives at our college, contributing significantly to environmental conservation. Through tree planting, they helped combat climate change and enhance biodiversity. Additionally, their efforts in maintaining cleanliness fostered a healthier and safer environment. These initiatives reflect our cadets' commitment to sustainability and responsibility, creating a cleaner, greener future for all.",
-        date: "3rd January",
+        date: "3rd January 2023",
         image: ss23a,
         gallery: [
           { src: ss23a },
@@ -551,7 +551,7 @@ export const eventsData = [
       {
         title: "CATC Camp 1",
         text: "The Combined Annual Training Camp (CATC) held from October 11 to October 21 at GDC-Gajwel was another successful event, with exceptional achievements. IIT Hyderabad's SD cadets' team clinched the Gold Medal in Volleyball, showcasing their strength, teamwork, and dedication. Alongside this, cadets participated actively in various activities, reflecting their discipline and commitment. These accomplishments highlight the outstanding performance and spirit of our cadets throughout the camp.",
-        date: "11th-21st October",
+        date: "11th-21st Oct 2023",
         image: c123c,
         gallery: [
           { src: c123a },
@@ -563,7 +563,7 @@ export const eventsData = [
       {
         title: "CATC Camp 2",
         text: "The Combined Annual Training Camp (CATC) held from December 10 to December 14 was another successful event, where our SD cadets demonstrated exceptional accuracy in shooting. Their impressive performance in this skill-based competition reflects their dedication and precision. Alongside this, cadets engaged in various activities, showcasing their discipline and commitment. These achievements highlight the continued excellence and spirit of our cadets throughout the camp.",
-        date: "10th-14th December",
+        date: "10th-14th Dec 2023",
         image: c223a,
         gallery: [
           { src: c223a },

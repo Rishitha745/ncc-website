@@ -20,7 +20,7 @@ const EventsPage = () => {
           <Title>Our Events</Title>
           <YearsCarousel handleYearChange={handleYearChange} />
           {eventsData[currentYear] ? (
-            <>
+            <div className="mb-6 sm:mb-10">
               <div className="flex md:hidden">
                 <div className="w-full md:w-1/2 h-16 bg-slate-400"></div>
                 <div className="w-0 md:w-1/2 h-16 bg-slate-50"></div>
@@ -40,7 +40,7 @@ const EventsPage = () => {
                 <div className="w-full md:w-1/2 h-16 bg-slate-400"></div>
                 <div className="w-0 md:w-1/2 h-16 bg-slate-50"></div>
               </div>
-            </>
+            </div>
           ) : (
             <div className="my-10 text-center">
               <h1 className="text-xl sm:text-2xl font-bold text-blue-600 px-10">

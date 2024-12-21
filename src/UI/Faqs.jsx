@@ -30,7 +30,7 @@ const Faqs = ({ faqs }) => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-5" ref={containerRef}>
+    <div className="flex flex-col gap-6" ref={containerRef}>
       {faqs.map((faq, index) => {
         return (
           <div

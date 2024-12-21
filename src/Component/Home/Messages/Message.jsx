@@ -6,7 +6,7 @@ import { Quote } from "lucide-react";
 
 const Message = () => {
   return (
-    <div className="">
+    <div className="mb-6 sm:mb-10">
       <Title>Message</Title>
       <div className="flex flex-col md:flex-row bg-slate-300 items-center justify-between p-5 mb-6 md:mb-10 mr-10 md:mr-28 gap-4 sm:gap-6">
         <div className="w-1/3 lg:w-1/4 flex flex-col justify-center items-center text-center">

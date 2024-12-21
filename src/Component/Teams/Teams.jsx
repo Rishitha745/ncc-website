@@ -14,14 +14,14 @@ const Teams = () => {
   };
 
   return (
-    <div>
+    <>
       <MainLayout>
-        <div className="max-w-7xl mx-auto bg-slate-200">
+        <div className="bg-slate-200">
           <Title>Meet the Councils</Title>
           <YearsCarousel handleYearChange={handleYearChange} />
           {teamsData[currentYear] ? (
             <>
-              <div className="flex items-center justify-center mb-10 sm:mb-20">
+              <div className="flex items-center justify-center mb-6 sm:mb-10">
                 {teamsData[currentYear].ficMembers.map(
                   (ficMember, index) =>
                     index === 0 && (
@@ -30,8 +30,8 @@ const Teams = () => {
                 )}
               </div>
               {/* Use this division if there are more instructors. */}
-              {/* <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 mb-10 sm:mb-20"></div> */}
-              <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 mb-10 sm:mb-20">
+              {/* <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 mb-6 sm:mb-10"></div> */}
+              <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 mb-6 sm:mb-10">
                 {teamsData[currentYear].ficMembers.map(
                   (ficMember, index) =>
                     index !== 0 && (
@@ -39,11 +39,14 @@ const Teams = () => {
                     )
                 )}
               </div>
-              <div className="flex flex-col justify-center sm:flex-row items-start px-6 gap-5 mb-10 sm:mb-20">
-                <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl">
+              <div className="px-6">
+                <hr className="border-neutral-700/80 my-10 sm:my-14 md:my-16" />
+              </div>
+              <div className="flex flex-col justify-center lg:flex-row items-start px-6 gap-5 mb-6 sm:mb-10">
+                <h1 className="w-full lg:w-1/4 text-center font-bold text-2xl md:text-3xl mb-6">
                   Rank Holders
                 </h1>
-                <div className="w-full sm:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-x-7 gap-y-10">
+                <div className="w-full lg:w-3/4 grid grid-cols-2 md:grid-cols-3 gap-x-7 gap-y-10">
                   {teamsData[currentYear].rankMembers.map(
                     (rankMember, index) => (
                       <RankMember key={index} rankMember={rankMember} />
@@ -51,11 +54,14 @@ const Teams = () => {
                   )}
                 </div>
               </div>
-              <div className="flex flex-col justify-center sm:flex-row items-start px-6 gap-5 mb-10 sm:mb-20">
-                <h1 className="w-full sm:w-1/4 text-center font-bold text-2xl sm:text-xl md:text-2xl lg:text-3xl">
+              <div className="px-6">
+                <hr className="border-neutral-700/80 my-8 sm:my-12 md:my-14" />
+              </div>
+              <div className="flex flex-col justify-center lg:flex-row items-start px-6 gap-5 mb-6 sm:mb-10">
+                <h1 className="w-full lg:w-1/4 text-center font-bold text-2xl md:text-3xl mb-6">
                   Coordinators
                 </h1>
-                <div className="w-full sm:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-x-7 gap-y-10">
+                <div className="w-full lg:w-3/4 grid grid-cols-2 md:grid-cols-3 gap-x-7 gap-y-10">
                   {teamsData[currentYear].coordinatorMembers.map(
                     (coordinatorMember, index) => (
                       <CoordinatorMember
@@ -68,7 +74,7 @@ const Teams = () => {
               </div>
             </>
           ) : (
-            <div className="my-10 text-center mb-12">
+            <div className="text-center mb-6 sm:mb-10">
               <h1 className="text-xl sm:text-2xl font-bold text-blue-600 px-10">
                 OOPS! NCC in IITH was not established then.
               </h1>
@@ -76,7 +82,7 @@ const Teams = () => {
           )}
         </div>
       </MainLayout>
-    </div>
+    </>
   );
 };
 

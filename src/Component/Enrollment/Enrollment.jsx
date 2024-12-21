@@ -4,13 +4,13 @@ import EnrollmentForm from "./EnrollmentForm";
 
 const Enrollment = () => {
   return (
-    <div>
+    <>
       <MainLayout>
         <div className="mb-6 sm:mb-10 px-6">
           <EnrollmentForm />
         </div>
       </MainLayout>
-    </div>
+    </>
   );
 };
 
