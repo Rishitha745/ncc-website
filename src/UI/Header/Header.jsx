@@ -20,8 +20,8 @@ const Header = () => {
           </div>
           <div className="flex justify-between items-center gap-6">
             <div className="hidden md:flex justify-center items-center space-x-12">
-              <a href="/contactus">
-                <Button>Enroll Here</Button>
+              <a href="/enrollment">
+                <Button>Enrollment</Button>
               </a>
             </div>
             <div className="lg:hidden md:flex items-center justify-center space-x-12">
@@ -44,8 +44,8 @@ const Header = () => {
           <div className="flex flex-col items-center justify-around gap-6">
             <NavItems />
             <div className="md:hidden flex justify-center items-center">
-              <a href="/contactus">
-                <Button>Enroll Here</Button>
+              <a href="/enrollment">
+                <Button>Enrollment</Button>
               </a>
             </div>
           </div>

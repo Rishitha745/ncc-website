@@ -131,7 +131,7 @@ const EnrollmentForm = () => {
         <form
           onSubmit={handleSubmit}
           // className="bg-slate-300 p-6 rounded-lg shadow-md w-full max-w-sm sm:max-w-md lg:max-w-lg"
-          className="bg-slate-300 p-4 sm:p-6 rounded-lg shadow-md w-full sm:w-2/3 lg:w-1/2 max-w-2xl mb-6 sm:mb-10"
+          className="bg-slate-300 p-4 sm:p-6 rounded-lg shadow-md w-full sm:w-2/3 lg:w-1/2 max-w-2xl"
         >
           {/* <h1 className="text-2xl font-bold mb-4 text-center">Enrollment Form</h1> */}
 
