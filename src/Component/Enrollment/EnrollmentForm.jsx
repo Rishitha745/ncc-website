@@ -200,8 +200,8 @@ const EnrollmentForm = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className={`w-full transition flex cursor-pointer items-center justify-center rounded-lg bg-blue-600 px-5 py-3 hover:bg-blue-700 outline-none text-sm text-slate-50 ${
-              isSubmitting ? "bg-slate-600 cursor-not-allowed" : ""
+            className={`w-full transition flex items-center justify-center rounded-lg px-5 py-3 outline-none text-sm text-slate-50 ${
+              isSubmitting ? "bg-slate-600 cursor-not-allowed" : " bg-blue-600 hover:bg-blue-700 cursor-pointer"
             }`}
             disabled={isSubmitting}
           >
