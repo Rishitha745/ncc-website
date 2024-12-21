@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="flex flex-col items-start">
             <h1 className="text-sm md:text-lg lg:text-2xl mb-5">Quick Links</h1>
             {navItems.map((item, index) => {
-              if (index !== 3) {
+              // if (index !== 3) {
                 return (
                   <a
                     key={index}
@@ -52,8 +52,8 @@ const Footer = () => {
                     {item.label}
                   </a>
                 );
-              }
-              return null;
+              // }
+              // return null;
             })}
           </div>
           <div className="flex flex-col items-start">
